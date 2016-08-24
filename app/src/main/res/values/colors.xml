@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!--steal from the project betterplay-->
+
+    <color name="white">#ffffff</color>
+
+    <color name="sign_out">#D32F2F</color>
+
+    <color name="bg_setting">#E0E0E0</color>
+
+    <color name="submit_btn">#CDDC39</color>
+
+    <color name="submit_press">#00BCD4</color>
+
+
+    <color name="home_page_lv_ultimate_color">#ff0000</color>
+
+
+    <!--Common-->
+
+    <color name="bottom_menu_bg_color">#fff</color>
+
+    <color name="action_bar_bg_color">#fff</color>
+
+    <color name="actionbar_title_color">#000</color>
+
+    <color name="bottom_menu_text_color">#000</color>
+
+    <color name="bottom_menu_text_highlighted_color">#4bc054</color>
+
+    <color name="main_content_bg_color">#fff</color>
+
+
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+</resources>
