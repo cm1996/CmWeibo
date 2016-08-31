@@ -31,13 +31,14 @@ public class WelcomeActivity extends BaseActivity {
         mAccessToken = AccessTokenKeeper.readAccessToken(this);
         if (mAccessToken.isSessionValid()) {
             //上次的登录信息存在且可用  那就直接进入 MainActivity
-            Log.e("1111111111111","11111111111");
+            startActivity(new Intent(WelcomeActivity.this,MainActivity.class));
+            playOpenAnimation();
+            finish();
         } else {
-            Log.e("222222222222","2222222222");
             //不存在或者不可用 进入 LoginActivity
             startActivity(new Intent(WelcomeActivity.this,LoginActivity.class));
-            finish();
             playOpenAnimation();
+            finish();
         }
     }
 

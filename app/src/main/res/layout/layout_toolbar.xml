@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/action_bar_bg_color"
+                android:padding="10dp">
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@mipmap/actionbar_back"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+        android:id="@+id/title_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/actionbar_title_size"
+        android:textColor="@color/actionbar_title_color"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/back"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:id="@+id/title_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/actionbar_title_size"
+        android:textColor="@color/actionbar_title_color"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/title_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/actionbar_title_size"
+        android:layout_centerVertical="true"
+        android:textColor="@color/actionbar_title_color"
+        android:layout_alignParentRight="true"/>
+    <ImageView
+        android:id="@+id/more"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>
