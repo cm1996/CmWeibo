@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="ssdut.chenmo.cmweibo.fragment.LeftMenuFragment"
+             android:background="@color/tianyi_blue">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/head_imageview"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/xiaowanzi"
+        android:layout_margin="40dp"
+        android:layout_centerHorizontal="true"/>
+
+    <ListView
+        android:id="@+id/menu_listview"
+        android:layout_below="@+id/head_imageview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#00000000"
+        android:dividerHeight="0dip"
+        android:layout_marginLeft="40dp">
+    </ListView>
+</RelativeLayout>

@@ -10,4 +10,6 @@
     <dimen name="actionbar_title_size">18sp</dimen>
     <dimen name="standard_padding">8dip</dimen>
     <dimen name="half_padding">4dip</dimen>
+
+    <dimen name="slidingmenu_offset">60dp</dimen>
 </resources>

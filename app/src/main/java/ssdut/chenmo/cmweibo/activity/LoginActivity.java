@@ -85,6 +85,12 @@ public class LoginActivity extends BaseActivity {
                 AccessTokenKeeper.writeAccessToken(LoginActivity.this, mAccessToken);
                 Toast.makeText(LoginActivity.this,
                         R.string.weibosdk_demo_toast_auth_success, Toast.LENGTH_SHORT).show();
+                //进入主界面
+                startActivity(new Intent(LoginActivity.this,MainActivity.class));
+                playOpenAnimation();
+                finish();
+
+
             } else {
                 // 以下几种情况，您会收到 Code：
                 // 1. 当您未在平台上注册的应用程序的包名与签名时；
