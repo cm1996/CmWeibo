@@ -4,19 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ssdut.chenmo.cmweibo.activity.MainActivity">
+    tools:context="ssdut.chenmo.cmweibo.activity.SelfActivity">
     <ssdut.chenmo.cmweibo.cusview.ToolBar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     </ssdut.chenmo.cmweibo.cusview.ToolBar>
-
-    <FrameLayout
-        android:id="@+id/id_layout_main"
-        android:layout_below="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </FrameLayout>
 
 </RelativeLayout>

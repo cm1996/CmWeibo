@@ -1,9 +1,12 @@
 package ssdut.chenmo.cmweibo.fragment;
 
 
+import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,6 +22,8 @@ import butterknife.OnItemClick;
 import de.hdodenhof.circleimageview.CircleImageView;
 import ssdut.chenmo.cmweibo.R;
 import ssdut.chenmo.cmweibo.activity.BaseFragmentActivity;
+import ssdut.chenmo.cmweibo.activity.MainActivity;
+import ssdut.chenmo.cmweibo.activity.SelfActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -30,7 +35,7 @@ public class LeftMenuFragment extends BaseFragment {
     CircleImageView mHead;
     @BindView(R.id.menu_listview)
     ListView mListView;
-    String[] mStrings = {"消息","发现","设置","待补充1","待补充2"};
+    String[] mStrings = {"首页","消息","发现","设置","待补充1","待补充2"};
     ArrayAdapter<String> mAdapter;
 
     @Override
@@ -40,8 +45,15 @@ public class LeftMenuFragment extends BaseFragment {
         mListView.setAdapter(mAdapter);
     }
 
+    @OnClick(R.id.head_imageview)
+    public void onHeadClick(View v){
+        startActivity(new Intent(context,SelfActivity.class));
+        playOpenAnimation();
+    }
+
     @OnItemClick(R.id.menu_listview)
     public void onItemClick(AdapterView<?> parent, View view, int position, long id){
+        ((MainActivity)context).replaceFragment(position);
         showToast("可以想想怎么设计嘿 "+position);
     }
 

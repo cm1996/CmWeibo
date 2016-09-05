@@ -33,6 +33,8 @@
         </activity>
         <activity android:name=".activity.MainActivity">
         </activity>
+        <activity android:name=".activity.SelfActivity">
+        </activity>
     </application>
 
 </manifest>
