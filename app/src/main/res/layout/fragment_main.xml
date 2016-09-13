@@ -4,11 +4,13 @@
              android:layout_height="match_parent"
              tools:context="ssdut.chenmo.cmweibo.fragment.MainFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swiperefreshlayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="微博首页，我要征服RecyclerView,还必须是带上拉下滑的，这样一想，好多地方要用"
-        android:gravity="center"/>
-
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_weibo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
 </FrameLayout>

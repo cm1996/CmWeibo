@@ -4,21 +4,43 @@
              android:layout_height="match_parent"
              tools:context="ssdut.chenmo.cmweibo.fragment.LeftMenuFragment"
              android:background="@color/tianyi_blue">
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/head_imageview"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:src="@drawable/xiaowanzi"
-        android:layout_margin="40dp"
-        android:layout_centerHorizontal="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll1">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/head_imageview"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/xiaowanzi"
+            android:layout_margin="40dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/screen_name"
+            android:gravity="center_vertical"
+            android:text="暂无昵称"
+            android:textSize="@dimen/text_size_large"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_description"
+        android:layout_below="@+id/ll1"
+        android:layout_alignLeft="@+id/menu_listview"
+        android:text="暂无简介"
+        android:textSize="@dimen/text_size_small"/>
 
     <ListView
         android:id="@+id/menu_listview"
-        android:layout_below="@+id/head_imageview"
+        android:layout_below="@+id/tv_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:divider="#00000000"
         android:dividerHeight="0dip"
-        android:layout_marginLeft="40dp">
+        android:layout_marginLeft="40dp"
+        >
     </ListView>
 </RelativeLayout>

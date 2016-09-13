@@ -7,22 +7,20 @@ import android.widget.TextView;
 
 import com.sina.weibo.sdk.api.share.Base;
 
-import butterknife.BindView;
 import ssdut.chenmo.cmweibo.R;
 import ssdut.chenmo.cmweibo.cusview.ToolBar;
 
-public class SelfActivity extends BaseActivity implements ToolBar.ToolBarListener{
+public class UserActivity extends BaseActivity implements ToolBar.ToolBarListener{
 
-    @BindView(R.id.toolbar)
-    ToolBar mToolBar;
+
     @Override
     protected void initData() {
-        mToolBar.setToolBarListener(this);
+
     }
 
     @Override
     protected int initLayoutRes() {
-        return R.layout.activity_self;
+        return R.layout.activity_user;
     }
 
     @Override
@@ -32,8 +30,7 @@ public class SelfActivity extends BaseActivity implements ToolBar.ToolBarListene
 
     @Override
     public void onBackClicked() {
-        onBackPressed();
-        playExitAnimation();
+
     }
 
     @Override
@@ -49,12 +46,10 @@ public class SelfActivity extends BaseActivity implements ToolBar.ToolBarListene
     @Override
     public void onTitleRightClicked() {
 
-        showToast("你点了一下我");
     }
 
     @Override
     public void onInit(ImageView back, TextView titleLeft, TextView titleCenter, TextView titleRight, ImageView more) {
-        titleRight.setText("12345678");
 
     }
 }

@@ -1,18 +1,32 @@
 package ssdut.chenmo.cmweibo.activity;
 
+import android.os.Message;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingActivity;
 import com.sina.weibo.sdk.auth.Oauth2AccessToken;
+import com.sina.weibo.sdk.exception.WeiboException;
+import com.sina.weibo.sdk.net.RequestListener;
+import com.sina.weibo.sdk.openapi.UsersAPI;
+import com.sina.weibo.sdk.openapi.legacy.StatusesAPI;
+import com.sina.weibo.sdk.openapi.models.Status;
+import com.sina.weibo.sdk.openapi.models.StatusList;
+import com.sina.weibo.sdk.openapi.models.User;
+import com.sina.weibo.sdk.utils.LogUtil;
+
+import java.util.List;
 
 import butterknife.BindView;
 import ssdut.chenmo.cmweibo.R;
+import ssdut.chenmo.cmweibo.config.Constants;
 import ssdut.chenmo.cmweibo.cusview.ToolBar;
 import ssdut.chenmo.cmweibo.fragment.FindFragment;
 import ssdut.chenmo.cmweibo.fragment.LeftMenuFragment;
@@ -26,7 +40,14 @@ public class MainActivity extends BaseFragmentActivity implements ToolBar.ToolBa
     @BindView(R.id.toolbar)
     ToolBar mToolBar;
     SlidingMenu menu;
+    LeftMenuFragment mLeftMenuFragment;
+
     Oauth2AccessToken mOauth2AccessToken;
+    User user;
+
+    //一些FLAG
+    boolean hasGotUserInfo = false;
+
     //来来来 先把三个fragment实例化
     FindFragment mFindFragment = new FindFragment();
     MessageFragment mMessageFragment = new MessageFragment();
@@ -38,6 +59,8 @@ public class MainActivity extends BaseFragmentActivity implements ToolBar.ToolBa
     protected void initData() {
         //初始化个人信息令牌
         mOauth2AccessToken = AccessTokenKeeper.readAccessToken(this);
+        //初始化User信息
+        initUser();
         //初始化顶部栏
         mToolBar.setToolBarListener(this);
         //初始化侧滑栏
@@ -49,9 +72,71 @@ public class MainActivity extends BaseFragmentActivity implements ToolBar.ToolBa
         getSupportFragmentManager().beginTransaction().add(R.id.id_layout_main,mMessageFragment).hide(mMessageFragment).commit();
         getSupportFragmentManager().beginTransaction().add(R.id.id_layout_main,mSettingFragment).hide(mSettingFragment).commit();
 
+        mMainFragment.setWeiboDataProvider(new MainFragment.WeiboDataProvider() {
+
+            @Override
+            public void updateData(long since_id) {
+                StatusesAPI mStatusesAPI = new StatusesAPI(MainActivity.this,Constants.APP_KEY,mOauth2AccessToken);
+                mStatusesAPI.friendsTimeline(since_id, 0, 20, 1, false, 0, false, new RequestListener() {
+                    @Override
+                    public void onComplete(String response) {
+                        if (!TextUtils.isEmpty(response)) {
+                            if (response.startsWith("{\"statuses\"")) {
+                                Message msg = new Message();
+                                msg.what = 1001;
+                                Bundle bundle = new Bundle();
+                                bundle.putString("response", response);
+                                msg.setData(bundle);
+                                mMainFragment.mHandler.sendMessage(msg);
+                                //statuses.statusList;
+                            } else {
+                                Toast.makeText(MainActivity.this, response, Toast.LENGTH_LONG).show();
+                            }
+                        }
+                    }
+
+                    @Override
+                    public void onWeiboException(WeiboException e) {
+                        showToast("出现异常001");
+                    }
+                });
+            }
+        });
 
 
 
+
+
+
+    }
+
+    private void initUser() {
+        UsersAPI mUsersAPI = new UsersAPI(this, Constants.APP_KEY,mOauth2AccessToken); // 获取用户信息接口
+        RequestListener mListener = new RequestListener() {
+            @Override
+            public void onComplete(String s) {
+
+                if(!TextUtils.isEmpty(s)){
+                    user = User.parse(s);
+                    //改一下UI
+                    changeUi();
+                }
+            }
+
+            @Override
+            public void onWeiboException(WeiboException e) {
+                showToast("获取个人信息失败");    //注意后期改动到String资源文件去
+                Log.e("错误代码及信息",""+e);
+            }
+        };
+        mUsersAPI.show(Long.parseLong(mOauth2AccessToken.getUid()),mListener); //直接是异步的运行在UI线程
+    }
+
+    private void changeUi() {
+        //toolbar的标题得改了
+        ((TextView)findViewById(R.id.toolbar).findViewById(R.id.title_center)).setText(user.screen_name);
+        //侧滑栏的昵称和个人简介
+        mLeftMenuFragment.initUi(user.screen_name,user.description,user.avatar_large);
 
     }
 
@@ -59,7 +144,7 @@ public class MainActivity extends BaseFragmentActivity implements ToolBar.ToolBa
         // configure the SlidingMenu
         menu = new SlidingMenu(this);
         //为侧滑菜单设置布局
-        LeftMenuFragment mLeftMenuFragment = new LeftMenuFragment(); //侧滑栏所使用的Fragment
+        mLeftMenuFragment = new LeftMenuFragment(); //侧滑栏所使用的Fragment
         menu.setMenu(R.layout.layout_leftmenu);
         getSupportFragmentManager().beginTransaction().replace(R.id.id_layout_leftmenu, mLeftMenuFragment).commit();
         //然后配置相应的各种模式
@@ -142,11 +227,6 @@ public class MainActivity extends BaseFragmentActivity implements ToolBar.ToolBa
     @Override
     public void onInit(ImageView back, TextView titleLeft, TextView titleCenter, TextView titleRight, ImageView more) {
         back.setImageResource(R.mipmap.hamburger);
-        if(mOauth2AccessToken==null){
-            Log.e("1111111111","1111111111");
-        } else if(mOauth2AccessToken.getUid()==null){
-            Log.e("2222222","22222222222");
-        } else
         titleCenter.setText(mOauth2AccessToken.getUid());  // 等上数据了再改过来
     }
 }
