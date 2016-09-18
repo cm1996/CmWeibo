@@ -75,15 +75,19 @@ public class MainActivity extends BaseFragmentActivity implements ToolBar.ToolBa
         mMainFragment.setWeiboDataProvider(new MainFragment.WeiboDataProvider() {
 
             @Override
-            public void updateData(long since_id) {
+            public void updateData(long since_id, final long max_id , final boolean isNew) {
                 StatusesAPI mStatusesAPI = new StatusesAPI(MainActivity.this,Constants.APP_KEY,mOauth2AccessToken);
-                mStatusesAPI.friendsTimeline(since_id, 0, 20, 1, false, 0, false, new RequestListener() {
+                mStatusesAPI.friendsTimeline(since_id, max_id, 20, 1, false, 0, false, new RequestListener() {
                     @Override
                     public void onComplete(String response) {
                         if (!TextUtils.isEmpty(response)) {
                             if (response.startsWith("{\"statuses\"")) {
                                 Message msg = new Message();
-                                msg.what = 1001;
+                                if(isNew){
+                                    msg.what = 1001;
+                                } else {
+                                    msg.what = 1002;
+                                }
                                 Bundle bundle = new Bundle();
                                 bundle.putString("response", response);
                                 msg.setData(bundle);

@@ -24,12 +24,12 @@
         "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_com_sina_weibo_sdk_button_grey_normal.9.png",
         "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_com_sina_weibo_sdk_button_grey_normal.9.png"
+    },
+    {
+        "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",

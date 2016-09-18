@@ -56,12 +56,12 @@
         "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_layout.xml",
-        "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
         "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
         "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple.xml",
@@ -140,11 +140,11 @@
         "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
         "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_up_container.xml",
         "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     }
 ]

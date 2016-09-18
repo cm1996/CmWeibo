@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-    android:background="@drawable/bg_weibo_item">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_weibo_item">
     <LinearLayout
         android:id="@+id/ll1"
         android:layout_width="match_parent"
@@ -38,19 +38,32 @@
         android:layout_below="@+id/ll1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-    <GridLayout
-        android:layout_below="@id/weibo_item_text"
-        android:id="@+id/weibo_item_pics"
+    <RelativeLayout
+        android:id="@+id/rl1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:columnCount="3"
-        android:orientation="horizontal">
-    </GridLayout>
+        android:layout_margin="5dp"
+        android:layout_below="@+id/weibo_item_text"
+        android:background="@drawable/bg_weibo_retweet_item"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/weibo_retweet_item_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <GridLayout
+            android:layout_below="@id/weibo_retweet_item_text"
+            android:id="@+id/weibo_retweet_item_pics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:orientation="horizontal">
+        </GridLayout>
+    </RelativeLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_below="@id/weibo_item_pics">
+        android:layout_below="@id/rl1">
         <View
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -70,5 +83,4 @@
             android:textSize="15sp"
             android:layout_weight="2"/>
     </LinearLayout>
-
 </RelativeLayout>

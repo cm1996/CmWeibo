@@ -2,7 +2,8 @@
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
-             tools:context="ssdut.chenmo.cmweibo.fragment.MainFragment">
+             tools:context="ssdut.chenmo.cmweibo.fragment.MainFragment"
+             android:background="@color/bg_grey">
 
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/swiperefreshlayout"

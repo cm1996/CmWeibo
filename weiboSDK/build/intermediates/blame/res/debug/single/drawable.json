@@ -36,12 +36,12 @@
         "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
         "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
         "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",

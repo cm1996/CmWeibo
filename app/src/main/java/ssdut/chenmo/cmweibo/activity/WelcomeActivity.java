@@ -78,6 +78,7 @@ public class WelcomeActivity extends BaseActivity {
 //                        new BaseImageDownloader(App.this, 5 * 1000, 30 * 1000))
 //                        // readTimeout(30)// 超时时间
                 .writeDebugLogs() // Remove for release app
+                .threadPoolSize(3)
                 .build();
         ImageLoader.getInstance().init(config);
 

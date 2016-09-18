@@ -28,6 +28,7 @@ import java.util.List;
 
 import butterknife.BindView;
 import ssdut.chenmo.cmweibo.R;
+import ssdut.chenmo.cmweibo.adapter.DividerItemDecoration;
 import ssdut.chenmo.cmweibo.adapter.RcvAdapter;
 
 /**
@@ -45,6 +46,8 @@ import ssdut.chenmo.cmweibo.adapter.RcvAdapter;
 public class MainFragment extends BaseFragment {
 
     public static int MSG1 = 1001;
+    public static int MSG2 = 1002;
+
 
     @BindView(R.id.rv_weibo)
     RecyclerView mRecyclerView;
@@ -62,7 +65,7 @@ public class MainFragment extends BaseFragment {
         //配置RecyclerView
         mRecyclerView.setLayoutManager(new LinearLayoutManager(context));
         mRecyclerView.setAdapter(mAdapter = new RcvAdapter(context,mWeibos));
-
+        mRecyclerView.addItemDecoration(new DividerItemDecoration(context,DividerItemDecoration.VERTICAL_LIST));
         /*if(mWeiboDataProvider!=null){
             mWeiboDataProvider.updateData();
         }*/
@@ -75,9 +78,9 @@ public class MainFragment extends BaseFragment {
                 //刷新的时候做什么
                 if(mWeiboDataProvider!=null){
                     if(mWeibos.isEmpty())
-                        mWeiboDataProvider.updateData(0L);
+                        mWeiboDataProvider.updateData(0L,0L,true);
                     else
-                        mWeiboDataProvider.updateData(Long.parseLong(mWeibos.get(0).id));
+                        mWeiboDataProvider.updateData(Long.parseLong(mWeibos.get(0).id),0L,true);
                 }
 
             }
@@ -105,14 +108,14 @@ public class MainFragment extends BaseFragment {
                     loading = true;  //表示正在联网加载新数据
                     // 。。。。。。好了加载完了
 
-                   /* if(mWeiboDataProvider!=null){
-                        mStrings = mWeiboDataProvider.getDownData();
-                    }*/
+                    if(mWeiboDataProvider!=null){
+                        if(mWeibos.size()>1){
+                            mWeiboDataProvider.updateData(0L,Long.parseLong(mWeibos.get(mWeibos.size()-2).id),false);
+                        } else {
+                            mWeiboDataProvider.updateData(0L,0L,false);
 
-                    loading = false;
-                    mWeibos.remove(mWeibos.size()-1);
-                    mAdapter.notifyDataSetChanged();
-
+                        }
+                    }
                 }
 
 
@@ -131,7 +134,7 @@ public class MainFragment extends BaseFragment {
      *  接口中的三个函数还不确定，取决于微博API提供了怎样要数据的方法
      *  */
     public interface WeiboDataProvider{
-        void updateData(long since_id);
+        void updateData(long since_id, long max_id , boolean isNew);
     }
 
     private WeiboDataProvider mWeiboDataProvider;
@@ -144,14 +147,21 @@ public class MainFragment extends BaseFragment {
         @Override
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
-            if(msg.what==MSG1){
+            if(msg.what==MSG1||msg.what==MSG2){
                 String response = msg.getData().getString("response");
                 StatusList statuses = StatusList.parse(response);
-                if (statuses != null && statuses.total_number > 0) {
+                if (statuses != null && statuses.statusList!=null && statuses.total_number > 0) {
                     Toast.makeText(MainFragment.this.context,
                             "获取微博信息流成功, 条数: " + statuses.statusList.size(),
                             Toast.LENGTH_LONG).show();
-                    mWeibos.addAll(0,statuses.statusList);
+                    if(msg.what==MSG1){
+                        mWeibos.addAll(0,statuses.statusList);
+                    } else if(msg.what==MSG2) {
+                        loading = false;
+                        mWeibos.remove(mWeibos.size()-1);
+                        mWeibos.addAll(statuses.statusList);
+                        mAdapter.notifyDataSetChanged();
+                    }
                     mAdapter.notifyDataSetChanged();
 
                 }

@@ -3,6 +3,8 @@
     <!--我不管，我大天依蓝要放在最上面-->
     <color name="tianyi_blue">#66ccff</color>
 
+    <color name="bg_grey">#fccdcdcd</color>
+
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
