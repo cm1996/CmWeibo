@@ -1,15 +1,21 @@
 package ssdut.chenmo.cmweibo.activity;
 
+import android.animation.ValueAnimator;
 import android.os.Message;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.getbase.floatingactionbutton.FloatingActionButton;
+import com.getbase.floatingactionbutton.FloatingActionsMenu;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingActivity;
 import com.sina.weibo.sdk.auth.Oauth2AccessToken;
@@ -25,6 +31,7 @@ import com.sina.weibo.sdk.utils.LogUtil;
 import java.util.List;
 
 import butterknife.BindView;
+import butterknife.OnClick;
 import ssdut.chenmo.cmweibo.R;
 import ssdut.chenmo.cmweibo.config.Constants;
 import ssdut.chenmo.cmweibo.cusview.ToolBar;
@@ -39,9 +46,8 @@ public class MainActivity extends BaseFragmentActivity implements ToolBar.ToolBa
 
     @BindView(R.id.toolbar)
     ToolBar mToolBar;
-    SlidingMenu menu;
+    public SlidingMenu menu;
     LeftMenuFragment mLeftMenuFragment;
-
     Oauth2AccessToken mOauth2AccessToken;
     User user;
 
@@ -106,13 +112,8 @@ public class MainActivity extends BaseFragmentActivity implements ToolBar.ToolBa
                 });
             }
         });
-
-
-
-
-
-
     }
+
 
     private void initUser() {
         UsersAPI mUsersAPI = new UsersAPI(this, Constants.APP_KEY,mOauth2AccessToken); // 获取用户信息接口
@@ -161,6 +162,73 @@ public class MainActivity extends BaseFragmentActivity implements ToolBar.ToolBa
         menu.setFadeDegree(0.35f);
         //设置菜单内容的移动速度？？？
         menu.setBehindScrollScale(0.5f);
+        //final int topBarBottom = mLeftMenuFragment.ll.getBottom();
+        menu.setOnOpenListener(new SlidingMenu.OnOpenListener() {
+            @Override
+            public void onOpen() {
+                mLeftMenuFragment.ll.setVisibility(View.VISIBLE);
+                mLeftMenuFragment.mListView.setVisibility(View.VISIBLE);
+                /*ValueAnimator animator_fam = ValueAnimator.ofFloat(1,1.5f);
+                animator_fam.setDuration(50);
+                animator_fam.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+                    @Override
+                    public void onAnimationUpdate(ValueAnimator animation) {
+                        float curValue = (float)animation.getAnimatedValue();
+                        mMainFragment.mFAM.setScaleX(curValue);
+                        mMainFragment.mFAM.setScaleY(curValue);
+                    }
+                });
+                animator_fam.start();*/
+
+                ValueAnimator animator = ValueAnimator.ofInt(0,320);
+                animator.setDuration(200);
+
+                animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+                    @Override
+                    public void onAnimationUpdate(ValueAnimator animation) {
+                        int curValue = (int)animation.getAnimatedValue();
+                        mLeftMenuFragment.ll.layout(
+                                mLeftMenuFragment.ll.getLeft(),
+                                mLeftMenuFragment.ll.getTop(),
+                                mLeftMenuFragment.ll.getRight(),
+                                curValue);
+                        mLeftMenuFragment.mListView.layout(
+                                mLeftMenuFragment.mListView.getLeft(),
+                                740-curValue,
+                                mLeftMenuFragment.mListView.getRight(),
+                                mLeftMenuFragment.mListView.getBottom()
+                        );
+                    }
+                });
+                animator.start();
+            }
+        });
+        menu.setOnCloseListener(new SlidingMenu.OnCloseListener() {
+            @Override
+            public void onClose() {
+                ValueAnimator animator = ValueAnimator.ofInt(320,0);
+                animator.setDuration(200);
+
+                animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+                    @Override
+                    public void onAnimationUpdate(ValueAnimator animation) {
+                        int curValue = (int)animation.getAnimatedValue();
+                        mLeftMenuFragment.ll.layout(mLeftMenuFragment.ll.getLeft(),
+                                mLeftMenuFragment.ll.getTop(),
+                                mLeftMenuFragment.ll.getRight(),
+                                curValue);
+                        mLeftMenuFragment.mListView.layout(
+                                mLeftMenuFragment.mListView.getLeft(),
+                                740-curValue,
+                                mLeftMenuFragment.mListView.getRight(),
+                                mLeftMenuFragment.mListView.getBottom()
+                        );
+                    }
+                });
+                animator.start();
+
+            }
+        });
         /**
          * SLIDING_WINDOW will include the Title/ActionBar in the content
          * section of the SlidingMenu, while SLIDING_CONTENT does not.
@@ -231,6 +299,6 @@ public class MainActivity extends BaseFragmentActivity implements ToolBar.ToolBa
     @Override
     public void onInit(ImageView back, TextView titleLeft, TextView titleCenter, TextView titleRight, ImageView more) {
         back.setImageResource(R.mipmap.hamburger);
-        titleCenter.setText(mOauth2AccessToken.getUid());  // 等上数据了再改过来
+        titleCenter.setText(mOauth2AccessToken.getUid());
     }
 }

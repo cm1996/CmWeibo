@@ -1,22 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ssdut.chenmo.cmweibo.activity.MainActivity">
-    <ssdut.chenmo.cmweibo.cusview.ToolBar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    </ssdut.chenmo.cmweibo.cusview.ToolBar>
-
-    <FrameLayout
-        android:id="@+id/id_layout_main"
-        android:layout_below="@+id/toolbar"
+    tools:context="ssdut.chenmo.cmweibo.activity.MainActivity"
+    android:background="#ffffff">
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+        <ssdut.chenmo.cmweibo.cusview.ToolBar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/elevation_2">
+        </ssdut.chenmo.cmweibo.cusview.ToolBar>
+        <FrameLayout
+            android:id="@+id/id_layout_main"
+            android:layout_below="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+    </RelativeLayout>
+<!--    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_icon="@mipmap/plus"
+        fab:fab_colorNormal="@color/colorAccent"
+        fab:fab_colorPressed="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:layout_gravity="right|bottom"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        />-->
 
-    </FrameLayout>
-
-</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

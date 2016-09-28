@@ -25,7 +25,7 @@ public abstract class BaseFragmentActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
 
         mBaseAty=this;
-        initStatusBar();  //沉浸式通知栏
+        //initStatusBar();  //沉浸式通知栏
 
         if (initLayoutRes() != 0) {
             setContentView(initLayoutRes());

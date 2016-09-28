@@ -7,6 +7,11 @@
     <dimen name="text_size_medium">16sp</dimen>
     <dimen name="text_size_large">24sp</dimen>
 
+    <dimen name="elevation_0">0dp</dimen>
+    <dimen name="elevation_2">2dp</dimen>
+    <dimen name="elevation_4">4dp</dimen>
+    <dimen name="elevation_6">6dp</dimen>
+
 
     <dimen name="system_main_text_size">16sp</dimen>
     <dimen name="system_main_text_size_mid">12sp</dimen>
@@ -16,5 +21,8 @@
     <dimen name="standard_padding">8dip</dimen>
     <dimen name="half_padding">4dip</dimen>
 
-    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="slidingmenu_offset">50dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
 </resources>

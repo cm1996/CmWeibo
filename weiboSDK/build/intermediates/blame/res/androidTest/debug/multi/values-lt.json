@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-lt\\values-lt.xml",
+        "outputFile": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-lt\\values-lt.xml",
         "map": [
             {
                 "to": {

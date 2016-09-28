@@ -19,6 +19,7 @@ import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.Toast;
 
+import com.getbase.floatingactionbutton.FloatingActionsMenu;
 import com.sina.weibo.sdk.openapi.UsersAPI;
 import com.sina.weibo.sdk.openapi.models.Status;
 import com.sina.weibo.sdk.openapi.models.StatusList;
@@ -27,6 +28,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
+import butterknife.OnClick;
 import ssdut.chenmo.cmweibo.R;
 import ssdut.chenmo.cmweibo.adapter.DividerItemDecoration;
 import ssdut.chenmo.cmweibo.adapter.RcvAdapter;
@@ -53,6 +55,9 @@ public class MainFragment extends BaseFragment {
     RecyclerView mRecyclerView;
     @BindView(R.id.swiperefreshlayout)
     SwipeRefreshLayout mSwipeRefreshLayout;
+
+    @BindView(R.id.fab_menu)
+    public FloatingActionsMenu mFAM;
 
     private boolean loading = false; //判断是否正在进行上拉加载
     List<Status> mWeibos = new ArrayList<>();
@@ -124,6 +129,30 @@ public class MainFragment extends BaseFragment {
     }
 
 
+    @OnClick(R.id.fab_to_top)
+    public void toTop(View v){
+        int position = ((LinearLayoutManager)mRecyclerView.getLayoutManager()).
+                findLastVisibleItemPosition();
+        if(position>10)
+            mRecyclerView.scrollToPosition(5);
+        mRecyclerView.smoothScrollToPosition(0);
+        mFAM.toggle();
+    }
+
+    @OnClick(R.id.fab_to_bottom)
+    public void toBottom(View v){
+        int position = ((LinearLayoutManager)mRecyclerView.getLayoutManager()).
+                findLastVisibleItemPosition();
+        if(mAdapter.getItemCount()-position>10)
+            mRecyclerView.scrollToPosition(mAdapter.getItemCount()-5);
+        mRecyclerView.smoothScrollToPosition(mAdapter.getItemCount()-1);
+        mFAM.toggle();
+    }
+
+    @OnClick(R.id.fab_send_weibo)
+    public void sendWeibo(View v){
+        mFAM.toggle();
+    }
 
     @Override
     protected int initLayoutRes() {

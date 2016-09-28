@@ -1,9 +1,12 @@
 package ssdut.chenmo.cmweibo.adapter.viewholder;
 
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.GridLayout;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import butterknife.BindView;
@@ -32,9 +35,35 @@ public class RetweetWeiboViewHolder extends RecyclerView.ViewHolder{
     public TextView retweet;
     @BindView(R.id.weibo_item_comment)
     public TextView comment;
+    @BindView(R.id.rl1)
+    RelativeLayout retweetCard;
+    @BindView(R.id.rl)
+    RelativeLayout baseCard;
 
     public RetweetWeiboViewHolder(View itemView) {
         super(itemView);
         ButterKnife.bind(this,itemView);
+
+
+
+        View.OnTouchListener onTouchListener = new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                int action = event.getActionMasked();
+                switch (action) {
+                    case MotionEvent.ACTION_DOWN:
+                        v.setTranslationZ(0);
+                        break;
+                    case MotionEvent.ACTION_UP:
+                        v.setTranslationZ(2);
+                        default:
+                            return false;
+                }
+                return true;
+            }
+        };
+        retweetCard.setOnTouchListener(onTouchListener);
+        baseCard.setOnTouchListener(onTouchListener);
+
     }
 }

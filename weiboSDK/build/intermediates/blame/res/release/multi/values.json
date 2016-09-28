@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\release\\values\\values.xml",
+        "outputFile": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -585,9 +585,9 @@
                     "position": {
                         "startLine": 36,
                         "startColumn": 1,
-                        "startOffset": 1401,
+                        "startOffset": 1415,
                         "endColumn": 54,
-                        "endOffset": 1454
+                        "endOffset": 1468
                     }
                 }
             },
@@ -604,9 +604,9 @@
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
-                        "startOffset": 1460,
+                        "startOffset": 1474,
                         "endColumn": 73,
-                        "endOffset": 1529
+                        "endOffset": 1543
                     }
                 }
             },
@@ -2694,9 +2694,9 @@
                     "position": {
                         "startLine": 45,
                         "startColumn": 4,
-                        "startOffset": 1966,
+                        "startOffset": 1980,
                         "endColumn": 85,
-                        "endOffset": 2047
+                        "endOffset": 2061
                     }
                 }
             },
@@ -2713,9 +2713,9 @@
                     "position": {
                         "startLine": 40,
                         "startColumn": 2,
-                        "startOffset": 1604,
+                        "startOffset": 1618,
                         "endColumn": 66,
-                        "endOffset": 1668
+                        "endOffset": 1682
                     }
                 }
             },
@@ -2732,9 +2732,9 @@
                     "position": {
                         "startLine": 44,
                         "startColumn": 4,
-                        "startOffset": 1892,
+                        "startOffset": 1906,
                         "endColumn": 73,
-                        "endOffset": 1961
+                        "endOffset": 1975
                     }
                 }
             },
@@ -2751,9 +2751,9 @@
                     "position": {
                         "startLine": 41,
                         "startColumn": 4,
-                        "startOffset": 1673,
+                        "startOffset": 1687,
                         "endColumn": 73,
-                        "endOffset": 1742
+                        "endOffset": 1756
                     }
                 }
             },
@@ -2770,9 +2770,9 @@
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
-                        "startOffset": 1747,
+                        "startOffset": 1761,
                         "endColumn": 73,
-                        "endOffset": 1816
+                        "endOffset": 1830
                     }
                 }
             },
@@ -2789,9 +2789,9 @@
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
-                        "startOffset": 1821,
+                        "startOffset": 1835,
                         "endColumn": 70,
-                        "endOffset": 1887
+                        "endOffset": 1901
                     }
                 }
             },
@@ -2808,9 +2808,9 @@
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
-                        "startOffset": 1534,
+                        "startOffset": 1548,
                         "endColumn": 71,
-                        "endOffset": 1601
+                        "endOffset": 1615
                     }
                 }
             },
@@ -3771,7 +3771,7 @@
                     "startOffset": 29979,
                     "endLine": 235,
                     "endColumn": 12,
-                    "endOffset": 30265
+                    "endOffset": 30279
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\src\\main\\res\\values\\styles.xml",
@@ -3781,7 +3781,7 @@
                         "startOffset": 919,
                         "endLine": 29,
                         "endColumn": 12,
-                        "endOffset": 1205
+                        "endOffset": 1219
                     }
                 }
             },
@@ -3789,20 +3789,20 @@
                 "to": {
                     "startLine": 236,
                     "startColumn": 4,
-                    "startOffset": 30270,
+                    "startOffset": 30284,
                     "endLine": 238,
                     "endColumn": 12,
-                    "endOffset": 30425
+                    "endOffset": 30439
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 1243,
+                        "startOffset": 1257,
                         "endLine": 34,
                         "endColumn": 12,
-                        "endOffset": 1398
+                        "endOffset": 1412
                     }
                 }
             },
@@ -3810,10 +3810,10 @@
                 "to": {
                     "startLine": 239,
                     "startColumn": 4,
-                    "startOffset": 30430,
+                    "startOffset": 30444,
                     "endLine": 245,
                     "endColumn": 12,
-                    "endOffset": 30926
+                    "endOffset": 30940
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3831,9 +3831,9 @@
                 "to": {
                     "startLine": 246,
                     "startColumn": 4,
-                    "startOffset": 30931,
+                    "startOffset": 30945,
                     "endColumn": 88,
-                    "endOffset": 31015
+                    "endOffset": 31029
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3850,10 +3850,10 @@
                 "to": {
                     "startLine": 247,
                     "startColumn": 4,
-                    "startOffset": 31020,
+                    "startOffset": 31034,
                     "endLine": 250,
                     "endColumn": 12,
-                    "endOffset": 31262
+                    "endOffset": 31276
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3871,10 +3871,10 @@
                 "to": {
                     "startLine": 251,
                     "startColumn": 4,
-                    "startOffset": 31267,
+                    "startOffset": 31281,
                     "endLine": 254,
                     "endColumn": 12,
-                    "endOffset": 31543
+                    "endOffset": 31557
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3892,10 +3892,10 @@
                 "to": {
                     "startLine": 255,
                     "startColumn": 4,
-                    "startOffset": 31548,
+                    "startOffset": 31562,
                     "endLine": 259,
                     "endColumn": 12,
-                    "endOffset": 31828
+                    "endOffset": 31842
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3913,10 +3913,10 @@
                 "to": {
                     "startLine": 260,
                     "startColumn": 4,
-                    "startOffset": 31833,
+                    "startOffset": 31847,
                     "endLine": 265,
                     "endColumn": 12,
-                    "endOffset": 32221
+                    "endOffset": 32235
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3934,10 +3934,10 @@
                 "to": {
                     "startLine": 266,
                     "startColumn": 4,
-                    "startOffset": 32226,
+                    "startOffset": 32240,
                     "endLine": 272,
                     "endColumn": 12,
-                    "endOffset": 32698
+                    "endOffset": 32712
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3955,10 +3955,10 @@
                 "to": {
                     "startLine": 273,
                     "startColumn": 4,
-                    "startOffset": 32703,
+                    "startOffset": 32717,
                     "endLine": 276,
                     "endColumn": 12,
-                    "endOffset": 32920
+                    "endOffset": 32934
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3976,10 +3976,10 @@
                 "to": {
                     "startLine": 277,
                     "startColumn": 4,
-                    "startOffset": 32925,
+                    "startOffset": 32939,
                     "endLine": 280,
                     "endColumn": 12,
-                    "endOffset": 33142
+                    "endOffset": 33156
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -3997,10 +3997,10 @@
                 "to": {
                     "startLine": 281,
                     "startColumn": 4,
-                    "startOffset": 33147,
+                    "startOffset": 33161,
                     "endLine": 285,
                     "endColumn": 12,
-                    "endOffset": 33410
+                    "endOffset": 33424
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4018,10 +4018,10 @@
                 "to": {
                     "startLine": 286,
                     "startColumn": 4,
-                    "startOffset": 33415,
+                    "startOffset": 33429,
                     "endLine": 289,
                     "endColumn": 12,
-                    "endOffset": 33637
+                    "endOffset": 33651
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4039,10 +4039,10 @@
                 "to": {
                     "startLine": 290,
                     "startColumn": 4,
-                    "startOffset": 33642,
+                    "startOffset": 33656,
                     "endLine": 293,
                     "endColumn": 12,
-                    "endOffset": 33867
+                    "endOffset": 33881
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4060,10 +4060,10 @@
                 "to": {
                     "startLine": 294,
                     "startColumn": 4,
-                    "startOffset": 33872,
+                    "startOffset": 33886,
                     "endLine": 297,
                     "endColumn": 12,
-                    "endOffset": 34097
+                    "endOffset": 34111
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4081,10 +4081,10 @@
                 "to": {
                     "startLine": 298,
                     "startColumn": 4,
-                    "startOffset": 34102,
+                    "startOffset": 34116,
                     "endLine": 301,
                     "endColumn": 12,
-                    "endOffset": 34327
+                    "endOffset": 34341
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4102,10 +4102,10 @@
                 "to": {
                     "startLine": 302,
                     "startColumn": 4,
-                    "startOffset": 34332,
+                    "startOffset": 34346,
                     "endLine": 305,
                     "endColumn": 12,
-                    "endOffset": 34557
+                    "endOffset": 34571
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4123,10 +4123,10 @@
                 "to": {
                     "startLine": 306,
                     "startColumn": 4,
-                    "startOffset": 34562,
+                    "startOffset": 34576,
                     "endLine": 309,
                     "endColumn": 12,
-                    "endOffset": 34784
+                    "endOffset": 34798
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4144,10 +4144,10 @@
                 "to": {
                     "startLine": 310,
                     "startColumn": 4,
-                    "startOffset": 34789,
+                    "startOffset": 34803,
                     "endLine": 313,
                     "endColumn": 12,
-                    "endOffset": 35023
+                    "endOffset": 35037
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4165,10 +4165,10 @@
                 "to": {
                     "startLine": 314,
                     "startColumn": 4,
-                    "startOffset": 35028,
+                    "startOffset": 35042,
                     "endLine": 317,
                     "endColumn": 12,
-                    "endOffset": 35249
+                    "endOffset": 35263
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4186,10 +4186,10 @@
                 "to": {
                     "startLine": 318,
                     "startColumn": 4,
-                    "startOffset": 35254,
+                    "startOffset": 35268,
                     "endLine": 321,
                     "endColumn": 12,
-                    "endOffset": 35494
+                    "endOffset": 35508
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4207,10 +4207,10 @@
                 "to": {
                     "startLine": 322,
                     "startColumn": 4,
-                    "startOffset": 35499,
+                    "startOffset": 35513,
                     "endLine": 323,
                     "endColumn": 12,
-                    "endOffset": 35624
+                    "endOffset": 35638
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4228,10 +4228,10 @@
                 "to": {
                     "startLine": 324,
                     "startColumn": 4,
-                    "startOffset": 35629,
+                    "startOffset": 35643,
                     "endLine": 325,
                     "endColumn": 12,
-                    "endOffset": 35754
+                    "endOffset": 35768
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4249,10 +4249,10 @@
                 "to": {
                     "startLine": 326,
                     "startColumn": 4,
-                    "startOffset": 35759,
+                    "startOffset": 35773,
                     "endLine": 329,
                     "endColumn": 12,
-                    "endOffset": 35984
+                    "endOffset": 35998
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4270,10 +4270,10 @@
                 "to": {
                     "startLine": 330,
                     "startColumn": 4,
-                    "startOffset": 35989,
+                    "startOffset": 36003,
                     "endLine": 333,
                     "endColumn": 12,
-                    "endOffset": 36232
+                    "endOffset": 36246
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4291,10 +4291,10 @@
                 "to": {
                     "startLine": 334,
                     "startColumn": 4,
-                    "startOffset": 36237,
+                    "startOffset": 36251,
                     "endLine": 337,
                     "endColumn": 12,
-                    "endOffset": 36451
+                    "endOffset": 36465
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4312,10 +4312,10 @@
                 "to": {
                     "startLine": 338,
                     "startColumn": 4,
-                    "startOffset": 36456,
+                    "startOffset": 36470,
                     "endLine": 342,
                     "endColumn": 12,
-                    "endOffset": 36734
+                    "endOffset": 36748
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4333,10 +4333,10 @@
                 "to": {
                     "startLine": 343,
                     "startColumn": 4,
-                    "startOffset": 36739,
+                    "startOffset": 36753,
                     "endLine": 346,
                     "endColumn": 12,
-                    "endOffset": 36942
+                    "endOffset": 36956
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4354,10 +4354,10 @@
                 "to": {
                     "startLine": 347,
                     "startColumn": 4,
-                    "startOffset": 36947,
+                    "startOffset": 36961,
                     "endLine": 349,
                     "endColumn": 12,
-                    "endOffset": 37073
+                    "endOffset": 37087
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4375,10 +4375,10 @@
                 "to": {
                     "startLine": 350,
                     "startColumn": 4,
-                    "startOffset": 37078,
+                    "startOffset": 37092,
                     "endLine": 353,
                     "endColumn": 12,
-                    "endOffset": 37300
+                    "endOffset": 37314
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4396,10 +4396,10 @@
                 "to": {
                     "startLine": 354,
                     "startColumn": 4,
-                    "startOffset": 37305,
+                    "startOffset": 37319,
                     "endLine": 357,
                     "endColumn": 12,
-                    "endOffset": 37546
+                    "endOffset": 37560
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4417,10 +4417,10 @@
                 "to": {
                     "startLine": 358,
                     "startColumn": 4,
-                    "startOffset": 37551,
+                    "startOffset": 37565,
                     "endLine": 361,
                     "endColumn": 12,
-                    "endOffset": 37771
+                    "endOffset": 37785
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4438,10 +4438,10 @@
                 "to": {
                     "startLine": 362,
                     "startColumn": 4,
-                    "startOffset": 37776,
+                    "startOffset": 37790,
                     "endLine": 365,
                     "endColumn": 12,
-                    "endOffset": 38018
+                    "endOffset": 38032
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4459,10 +4459,10 @@
                 "to": {
                     "startLine": 366,
                     "startColumn": 4,
-                    "startOffset": 38023,
+                    "startOffset": 38037,
                     "endLine": 369,
                     "endColumn": 12,
-                    "endOffset": 38239
+                    "endOffset": 38253
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4480,10 +4480,10 @@
                 "to": {
                     "startLine": 370,
                     "startColumn": 4,
-                    "startOffset": 38244,
+                    "startOffset": 38258,
                     "endLine": 373,
                     "endColumn": 12,
-                    "endOffset": 38484
+                    "endOffset": 38498
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4501,10 +4501,10 @@
                 "to": {
                     "startLine": 374,
                     "startColumn": 4,
-                    "startOffset": 38489,
+                    "startOffset": 38503,
                     "endLine": 377,
                     "endColumn": 12,
-                    "endOffset": 38760
+                    "endOffset": 38774
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4522,10 +4522,10 @@
                 "to": {
                     "startLine": 378,
                     "startColumn": 4,
-                    "startOffset": 38765,
+                    "startOffset": 38779,
                     "endLine": 381,
                     "endColumn": 12,
-                    "endOffset": 39061
+                    "endOffset": 39075
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4543,10 +4543,10 @@
                 "to": {
                     "startLine": 382,
                     "startColumn": 4,
-                    "startOffset": 39066,
+                    "startOffset": 39080,
                     "endLine": 385,
                     "endColumn": 12,
-                    "endOffset": 39385
+                    "endOffset": 39399
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4564,10 +4564,10 @@
                 "to": {
                     "startLine": 386,
                     "startColumn": 4,
-                    "startOffset": 39390,
+                    "startOffset": 39404,
                     "endLine": 389,
                     "endColumn": 12,
-                    "endOffset": 39676
+                    "endOffset": 39690
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4585,10 +4585,10 @@
                 "to": {
                     "startLine": 390,
                     "startColumn": 4,
-                    "startOffset": 39681,
+                    "startOffset": 39695,
                     "endLine": 393,
                     "endColumn": 12,
-                    "endOffset": 39990
+                    "endOffset": 40004
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4606,9 +4606,9 @@
                 "to": {
                     "startLine": 394,
                     "startColumn": 4,
-                    "startOffset": 39995,
+                    "startOffset": 40009,
                     "endColumn": 136,
-                    "endOffset": 40127
+                    "endOffset": 40141
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4625,9 +4625,9 @@
                 "to": {
                     "startLine": 395,
                     "startColumn": 4,
-                    "startOffset": 40132,
+                    "startOffset": 40146,
                     "endColumn": 130,
-                    "endOffset": 40258
+                    "endOffset": 40272
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4644,9 +4644,9 @@
                 "to": {
                     "startLine": 396,
                     "startColumn": 4,
-                    "startOffset": 40263,
+                    "startOffset": 40277,
                     "endColumn": 104,
-                    "endOffset": 40363
+                    "endOffset": 40377
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4663,10 +4663,10 @@
                 "to": {
                     "startLine": 397,
                     "startColumn": 4,
-                    "startOffset": 40368,
+                    "startOffset": 40382,
                     "endLine": 399,
                     "endColumn": 12,
-                    "endOffset": 40567
+                    "endOffset": 40581
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4684,10 +4684,10 @@
                 "to": {
                     "startLine": 400,
                     "startColumn": 4,
-                    "startOffset": 40572,
+                    "startOffset": 40586,
                     "endLine": 402,
                     "endColumn": 12,
-                    "endOffset": 40775
+                    "endOffset": 40789
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4705,10 +4705,10 @@
                 "to": {
                     "startLine": 403,
                     "startColumn": 4,
-                    "startOffset": 40780,
+                    "startOffset": 40794,
                     "endLine": 404,
                     "endColumn": 12,
-                    "endOffset": 40899
+                    "endOffset": 40913
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4726,10 +4726,10 @@
                 "to": {
                     "startLine": 405,
                     "startColumn": 4,
-                    "startOffset": 40904,
+                    "startOffset": 40918,
                     "endLine": 406,
                     "endColumn": 12,
-                    "endOffset": 41023
+                    "endOffset": 41037
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4747,9 +4747,9 @@
                 "to": {
                     "startLine": 407,
                     "startColumn": 4,
-                    "startOffset": 41028,
+                    "startOffset": 41042,
                     "endColumn": 104,
-                    "endOffset": 41128
+                    "endOffset": 41142
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4766,9 +4766,9 @@
                 "to": {
                     "startLine": 408,
                     "startColumn": 4,
-                    "startOffset": 41133,
+                    "startOffset": 41147,
                     "endColumn": 116,
-                    "endOffset": 41245
+                    "endOffset": 41259
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4785,10 +4785,10 @@
                 "to": {
                     "startLine": 409,
                     "startColumn": 4,
-                    "startOffset": 41250,
+                    "startOffset": 41264,
                     "endLine": 411,
                     "endColumn": 12,
-                    "endOffset": 41459
+                    "endOffset": 41473
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4806,10 +4806,10 @@
                 "to": {
                     "startLine": 412,
                     "startColumn": 4,
-                    "startOffset": 41464,
+                    "startOffset": 41478,
                     "endLine": 413,
                     "endColumn": 12,
-                    "endOffset": 41605
+                    "endOffset": 41619
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4827,10 +4827,10 @@
                 "to": {
                     "startLine": 414,
                     "startColumn": 4,
-                    "startOffset": 41610,
+                    "startOffset": 41624,
                     "endLine": 415,
                     "endColumn": 12,
-                    "endOffset": 41745
+                    "endOffset": 41759
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4848,10 +4848,10 @@
                 "to": {
                     "startLine": 416,
                     "startColumn": 4,
-                    "startOffset": 41750,
+                    "startOffset": 41764,
                     "endLine": 417,
                     "endColumn": 12,
-                    "endOffset": 41831
+                    "endOffset": 41845
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4869,10 +4869,10 @@
                 "to": {
                     "startLine": 418,
                     "startColumn": 4,
-                    "startOffset": 41836,
+                    "startOffset": 41850,
                     "endLine": 422,
                     "endColumn": 12,
-                    "endOffset": 42179
+                    "endOffset": 42193
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4890,9 +4890,9 @@
                 "to": {
                     "startLine": 423,
                     "startColumn": 4,
-                    "startOffset": 42184,
+                    "startOffset": 42198,
                     "endColumn": 87,
-                    "endOffset": 42267
+                    "endOffset": 42281
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4909,10 +4909,10 @@
                 "to": {
                     "startLine": 424,
                     "startColumn": 4,
-                    "startOffset": 42272,
+                    "startOffset": 42286,
                     "endLine": 427,
                     "endColumn": 12,
-                    "endOffset": 42497
+                    "endOffset": 42511
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4930,10 +4930,10 @@
                 "to": {
                     "startLine": 428,
                     "startColumn": 4,
-                    "startOffset": 42502,
+                    "startOffset": 42516,
                     "endLine": 433,
                     "endColumn": 12,
-                    "endOffset": 42915
+                    "endOffset": 42929
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4951,10 +4951,10 @@
                 "to": {
                     "startLine": 434,
                     "startColumn": 4,
-                    "startOffset": 42920,
+                    "startOffset": 42934,
                     "endLine": 437,
                     "endColumn": 12,
-                    "endOffset": 43148
+                    "endOffset": 43162
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4972,9 +4972,9 @@
                 "to": {
                     "startLine": 438,
                     "startColumn": 4,
-                    "startOffset": 43153,
+                    "startOffset": 43167,
                     "endColumn": 81,
-                    "endOffset": 43230
+                    "endOffset": 43244
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -4991,10 +4991,10 @@
                 "to": {
                     "startLine": 439,
                     "startColumn": 4,
-                    "startOffset": 43235,
+                    "startOffset": 43249,
                     "endLine": 440,
                     "endColumn": 12,
-                    "endOffset": 43328
+                    "endOffset": 43342
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5012,10 +5012,10 @@
                 "to": {
                     "startLine": 441,
                     "startColumn": 4,
-                    "startOffset": 43333,
+                    "startOffset": 43347,
                     "endLine": 451,
                     "endColumn": 12,
-                    "endOffset": 43945
+                    "endOffset": 43959
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5033,9 +5033,9 @@
                 "to": {
                     "startLine": 452,
                     "startColumn": 4,
-                    "startOffset": 43950,
+                    "startOffset": 43964,
                     "endColumn": 99,
-                    "endOffset": 44045
+                    "endOffset": 44059
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5052,10 +5052,10 @@
                 "to": {
                     "startLine": 453,
                     "startColumn": 4,
-                    "startOffset": 44050,
+                    "startOffset": 44064,
                     "endLine": 456,
                     "endColumn": 12,
-                    "endOffset": 44281
+                    "endOffset": 44295
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5073,10 +5073,10 @@
                 "to": {
                     "startLine": 457,
                     "startColumn": 4,
-                    "startOffset": 44286,
+                    "startOffset": 44300,
                     "endLine": 462,
                     "endColumn": 12,
-                    "endOffset": 44705
+                    "endOffset": 44719
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5094,10 +5094,10 @@
                 "to": {
                     "startLine": 463,
                     "startColumn": 4,
-                    "startOffset": 44710,
+                    "startOffset": 44724,
                     "endLine": 466,
                     "endColumn": 12,
-                    "endOffset": 44944
+                    "endOffset": 44958
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5115,9 +5115,9 @@
                 "to": {
                     "startLine": 467,
                     "startColumn": 4,
-                    "startOffset": 44949,
+                    "startOffset": 44963,
                     "endColumn": 93,
-                    "endOffset": 45038
+                    "endOffset": 45052
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5134,9 +5134,9 @@
                 "to": {
                     "startLine": 468,
                     "startColumn": 4,
-                    "startOffset": 45043,
+                    "startOffset": 45057,
                     "endColumn": 88,
-                    "endOffset": 45127
+                    "endOffset": 45141
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5153,10 +5153,10 @@
                 "to": {
                     "startLine": 469,
                     "startColumn": 4,
-                    "startOffset": 45132,
+                    "startOffset": 45146,
                     "endLine": 472,
                     "endColumn": 12,
-                    "endOffset": 45364
+                    "endOffset": 45378
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5174,10 +5174,10 @@
                 "to": {
                     "startLine": 473,
                     "startColumn": 4,
-                    "startOffset": 45369,
+                    "startOffset": 45383,
                     "endLine": 498,
                     "endColumn": 12,
-                    "endOffset": 47315
+                    "endOffset": 47329
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5195,10 +5195,10 @@
                 "to": {
                     "startLine": 499,
                     "startColumn": 4,
-                    "startOffset": 47320,
+                    "startOffset": 47334,
                     "endLine": 502,
                     "endColumn": 12,
-                    "endOffset": 47557
+                    "endOffset": 47571
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5216,10 +5216,10 @@
                 "to": {
                     "startLine": 503,
                     "startColumn": 4,
-                    "startOffset": 47562,
+                    "startOffset": 47576,
                     "endLine": 529,
                     "endColumn": 12,
-                    "endOffset": 49639
+                    "endOffset": 49653
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5237,10 +5237,10 @@
                 "to": {
                     "startLine": 530,
                     "startColumn": 4,
-                    "startOffset": 49644,
+                    "startOffset": 49658,
                     "endLine": 684,
                     "endColumn": 12,
-                    "endOffset": 59505
+                    "endOffset": 59519
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5258,10 +5258,10 @@
                 "to": {
                     "startLine": 685,
                     "startColumn": 4,
-                    "startOffset": 59510,
+                    "startOffset": 59524,
                     "endLine": 706,
                     "endColumn": 12,
-                    "endOffset": 60772
+                    "endOffset": 60786
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5279,10 +5279,10 @@
                 "to": {
                     "startLine": 707,
                     "startColumn": 4,
-                    "startOffset": 60777,
+                    "startOffset": 60791,
                     "endLine": 861,
                     "endColumn": 12,
-                    "endOffset": 70748
+                    "endOffset": 70762
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5300,10 +5300,10 @@
                 "to": {
                     "startLine": 862,
                     "startColumn": 4,
-                    "startOffset": 70753,
+                    "startOffset": 70767,
                     "endLine": 883,
                     "endColumn": 12,
-                    "endOffset": 72029
+                    "endOffset": 72043
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5321,10 +5321,10 @@
                 "to": {
                     "startLine": 884,
                     "startColumn": 4,
-                    "startOffset": 72034,
+                    "startOffset": 72048,
                     "endLine": 890,
                     "endColumn": 12,
-                    "endOffset": 72565
+                    "endOffset": 72579
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5342,10 +5342,10 @@
                 "to": {
                     "startLine": 891,
                     "startColumn": 4,
-                    "startOffset": 72570,
+                    "startOffset": 72584,
                     "endLine": 895,
                     "endColumn": 12,
-                    "endOffset": 72895
+                    "endOffset": 72909
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5363,10 +5363,10 @@
                 "to": {
                     "startLine": 896,
                     "startColumn": 4,
-                    "startOffset": 72900,
+                    "startOffset": 72914,
                     "endLine": 916,
                     "endColumn": 12,
-                    "endOffset": 74018
+                    "endOffset": 74032
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5384,10 +5384,10 @@
                 "to": {
                     "startLine": 917,
                     "startColumn": 4,
-                    "startOffset": 74023,
+                    "startOffset": 74037,
                     "endLine": 921,
                     "endColumn": 12,
-                    "endOffset": 74274
+                    "endOffset": 74288
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5405,10 +5405,10 @@
                 "to": {
                     "startLine": 922,
                     "startColumn": 4,
-                    "startOffset": 74279,
+                    "startOffset": 74293,
                     "endLine": 926,
                     "endColumn": 12,
-                    "endOffset": 74510
+                    "endOffset": 74524
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5426,10 +5426,10 @@
                 "to": {
                     "startLine": 927,
                     "startColumn": 4,
-                    "startOffset": 74515,
+                    "startOffset": 74529,
                     "endLine": 936,
                     "endColumn": 12,
-                    "endOffset": 75057
+                    "endOffset": 75071
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5447,10 +5447,10 @@
                 "to": {
                     "startLine": 937,
                     "startColumn": 4,
-                    "startOffset": 75062,
+                    "startOffset": 75076,
                     "endLine": 945,
                     "endColumn": 12,
-                    "endOffset": 75551
+                    "endOffset": 75565
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5468,10 +5468,10 @@
                 "to": {
                     "startLine": 946,
                     "startColumn": 4,
-                    "startOffset": 75556,
+                    "startOffset": 75570,
                     "endLine": 954,
                     "endColumn": 12,
-                    "endOffset": 76156
+                    "endOffset": 76170
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5489,10 +5489,10 @@
                 "to": {
                     "startLine": 955,
                     "startColumn": 4,
-                    "startOffset": 76161,
+                    "startOffset": 76175,
                     "endLine": 957,
                     "endColumn": 12,
-                    "endOffset": 76304
+                    "endOffset": 76318
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5510,10 +5510,10 @@
                 "to": {
                     "startLine": 958,
                     "startColumn": 4,
-                    "startOffset": 76309,
+                    "startOffset": 76323,
                     "endLine": 964,
                     "endColumn": 12,
-                    "endOffset": 76892
+                    "endOffset": 76906
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5531,10 +5531,10 @@
                 "to": {
                     "startLine": 965,
                     "startColumn": 4,
-                    "startOffset": 76897,
+                    "startOffset": 76911,
                     "endLine": 972,
                     "endColumn": 12,
-                    "endOffset": 77456
+                    "endOffset": 77470
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5552,10 +5552,10 @@
                 "to": {
                     "startLine": 973,
                     "startColumn": 4,
-                    "startOffset": 77461,
+                    "startOffset": 77475,
                     "endLine": 979,
                     "endColumn": 12,
-                    "endOffset": 77831
+                    "endOffset": 77845
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5573,9 +5573,9 @@
                 "to": {
                     "startLine": 980,
                     "startColumn": 4,
-                    "startOffset": 77836,
+                    "startOffset": 77850,
                     "endColumn": 117,
-                    "endOffset": 77949
+                    "endOffset": 77963
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5592,10 +5592,10 @@
                 "to": {
                     "startLine": 981,
                     "startColumn": 4,
-                    "startOffset": 77954,
+                    "startOffset": 77968,
                     "endLine": 989,
                     "endColumn": 12,
-                    "endOffset": 78487
+                    "endOffset": 78501
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5613,10 +5613,10 @@
                 "to": {
                     "startLine": 990,
                     "startColumn": 4,
-                    "startOffset": 78492,
+                    "startOffset": 78506,
                     "endLine": 992,
                     "endColumn": 12,
-                    "endOffset": 78644
+                    "endOffset": 78658
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5634,10 +5634,10 @@
                 "to": {
                     "startLine": 993,
                     "startColumn": 4,
-                    "startOffset": 78649,
+                    "startOffset": 78663,
                     "endLine": 995,
                     "endColumn": 12,
-                    "endOffset": 78788
+                    "endOffset": 78802
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5655,10 +5655,10 @@
                 "to": {
                     "startLine": 996,
                     "startColumn": 4,
-                    "startOffset": 78793,
+                    "startOffset": 78807,
                     "endLine": 1000,
                     "endColumn": 12,
-                    "endOffset": 79108
+                    "endOffset": 79122
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5676,10 +5676,10 @@
                 "to": {
                     "startLine": 1001,
                     "startColumn": 4,
-                    "startOffset": 79113,
+                    "startOffset": 79127,
                     "endLine": 1004,
                     "endColumn": 12,
-                    "endOffset": 79364
+                    "endOffset": 79378
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5697,10 +5697,10 @@
                 "to": {
                     "startLine": 1005,
                     "startColumn": 4,
-                    "startOffset": 79369,
+                    "startOffset": 79383,
                     "endLine": 1008,
                     "endColumn": 12,
-                    "endOffset": 79534
+                    "endOffset": 79548
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5718,10 +5718,10 @@
                 "to": {
                     "startLine": 1009,
                     "startColumn": 4,
-                    "startOffset": 79539,
+                    "startOffset": 79553,
                     "endLine": 1011,
                     "endColumn": 12,
-                    "endOffset": 79675
+                    "endOffset": 79689
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5739,9 +5739,9 @@
                 "to": {
                     "startLine": 1012,
                     "startColumn": 4,
-                    "startOffset": 79680,
+                    "startOffset": 79694,
                     "endColumn": 63,
-                    "endOffset": 79739
+                    "endOffset": 79753
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5758,10 +5758,10 @@
                 "to": {
                     "startLine": 1013,
                     "startColumn": 4,
-                    "startOffset": 79744,
+                    "startOffset": 79758,
                     "endLine": 1016,
                     "endColumn": 12,
-                    "endOffset": 80021
+                    "endOffset": 80035
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5779,10 +5779,10 @@
                 "to": {
                     "startLine": 1017,
                     "startColumn": 4,
-                    "startOffset": 80026,
+                    "startOffset": 80040,
                     "endLine": 1020,
                     "endColumn": 12,
-                    "endOffset": 80307
+                    "endOffset": 80321
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5800,10 +5800,10 @@
                 "to": {
                     "startLine": 1021,
                     "startColumn": 4,
-                    "startOffset": 80312,
+                    "startOffset": 80326,
                     "endLine": 1030,
                     "endColumn": 12,
-                    "endOffset": 80983
+                    "endOffset": 80997
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5821,10 +5821,10 @@
                 "to": {
                     "startLine": 1031,
                     "startColumn": 4,
-                    "startOffset": 80988,
+                    "startOffset": 81002,
                     "endLine": 1035,
                     "endColumn": 12,
-                    "endOffset": 81247
+                    "endOffset": 81261
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5842,10 +5842,10 @@
                 "to": {
                     "startLine": 1036,
                     "startColumn": 4,
-                    "startOffset": 81252,
+                    "startOffset": 81266,
                     "endLine": 1042,
                     "endColumn": 12,
-                    "endOffset": 81585
+                    "endOffset": 81599
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5863,10 +5863,10 @@
                 "to": {
                     "startLine": 1043,
                     "startColumn": 4,
-                    "startOffset": 81590,
+                    "startOffset": 81604,
                     "endLine": 1048,
                     "endColumn": 12,
-                    "endOffset": 81938
+                    "endOffset": 81952
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5884,9 +5884,9 @@
                 "to": {
                     "startLine": 1049,
                     "startColumn": 4,
-                    "startOffset": 81943,
+                    "startOffset": 81957,
                     "endColumn": 93,
-                    "endOffset": 82032
+                    "endOffset": 82046
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5903,10 +5903,10 @@
                 "to": {
                     "startLine": 1050,
                     "startColumn": 4,
-                    "startOffset": 82037,
+                    "startOffset": 82051,
                     "endLine": 1052,
                     "endColumn": 12,
-                    "endOffset": 82218
+                    "endOffset": 82232
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5924,10 +5924,10 @@
                 "to": {
                     "startLine": 1053,
                     "startColumn": 4,
-                    "startOffset": 82223,
+                    "startOffset": 82237,
                     "endLine": 1056,
                     "endColumn": 12,
-                    "endOffset": 82524
+                    "endOffset": 82538
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5945,10 +5945,10 @@
                 "to": {
                     "startLine": 1057,
                     "startColumn": 4,
-                    "startOffset": 82529,
+                    "startOffset": 82543,
                     "endLine": 1061,
                     "endColumn": 12,
-                    "endOffset": 82786
+                    "endOffset": 82800
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5966,10 +5966,10 @@
                 "to": {
                     "startLine": 1062,
                     "startColumn": 4,
-                    "startOffset": 82791,
+                    "startOffset": 82805,
                     "endLine": 1063,
                     "endColumn": 12,
-                    "endOffset": 82911
+                    "endOffset": 82925
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -5987,10 +5987,10 @@
                 "to": {
                     "startLine": 1064,
                     "startColumn": 4,
-                    "startOffset": 82916,
+                    "startOffset": 82930,
                     "endLine": 1065,
                     "endColumn": 12,
-                    "endOffset": 83038
+                    "endOffset": 83052
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6008,10 +6008,10 @@
                 "to": {
                     "startLine": 1066,
                     "startColumn": 4,
-                    "startOffset": 83043,
+                    "startOffset": 83057,
                     "endLine": 1068,
                     "endColumn": 12,
-                    "endOffset": 83277
+                    "endOffset": 83291
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6029,10 +6029,10 @@
                 "to": {
                     "startLine": 1069,
                     "startColumn": 4,
-                    "startOffset": 83282,
+                    "startOffset": 83296,
                     "endLine": 1071,
                     "endColumn": 12,
-                    "endOffset": 83488
+                    "endOffset": 83502
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6050,10 +6050,10 @@
                 "to": {
                     "startLine": 1072,
                     "startColumn": 4,
-                    "startOffset": 83493,
+                    "startOffset": 83507,
                     "endLine": 1073,
                     "endColumn": 12,
-                    "endOffset": 83607
+                    "endOffset": 83621
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6071,10 +6071,10 @@
                 "to": {
                     "startLine": 1074,
                     "startColumn": 4,
-                    "startOffset": 83612,
+                    "startOffset": 83626,
                     "endLine": 1077,
                     "endColumn": 12,
-                    "endOffset": 83800
+                    "endOffset": 83814
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6092,10 +6092,10 @@
                 "to": {
                     "startLine": 1078,
                     "startColumn": 4,
-                    "startOffset": 83805,
+                    "startOffset": 83819,
                     "endLine": 1084,
                     "endColumn": 12,
-                    "endOffset": 84255
+                    "endOffset": 84269
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6113,10 +6113,10 @@
                 "to": {
                     "startLine": 1085,
                     "startColumn": 4,
-                    "startOffset": 84260,
+                    "startOffset": 84274,
                     "endLine": 1087,
                     "endColumn": 12,
-                    "endOffset": 84436
+                    "endOffset": 84450
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6134,10 +6134,10 @@
                 "to": {
                     "startLine": 1088,
                     "startColumn": 4,
-                    "startOffset": 84441,
+                    "startOffset": 84455,
                     "endLine": 1090,
                     "endColumn": 12,
-                    "endOffset": 84558
+                    "endOffset": 84572
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6155,10 +6155,10 @@
                 "to": {
                     "startLine": 1091,
                     "startColumn": 4,
-                    "startOffset": 84563,
+                    "startOffset": 84577,
                     "endLine": 1094,
                     "endColumn": 12,
-                    "endOffset": 84817
+                    "endOffset": 84831
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6176,10 +6176,10 @@
                 "to": {
                     "startLine": 1095,
                     "startColumn": 4,
-                    "startOffset": 84822,
+                    "startOffset": 84836,
                     "endLine": 1096,
                     "endColumn": 12,
-                    "endOffset": 84930
+                    "endOffset": 84944
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6197,10 +6197,10 @@
                 "to": {
                     "startLine": 1097,
                     "startColumn": 4,
-                    "startOffset": 84935,
+                    "startOffset": 84949,
                     "endLine": 1100,
                     "endColumn": 12,
-                    "endOffset": 85117
+                    "endOffset": 85131
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6218,10 +6218,10 @@
                 "to": {
                     "startLine": 1101,
                     "startColumn": 4,
-                    "startOffset": 85122,
+                    "startOffset": 85136,
                     "endLine": 1102,
                     "endColumn": 12,
-                    "endOffset": 85219
+                    "endOffset": 85233
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6239,10 +6239,10 @@
                 "to": {
                     "startLine": 1103,
                     "startColumn": 4,
-                    "startOffset": 85224,
+                    "startOffset": 85238,
                     "endLine": 1108,
                     "endColumn": 12,
-                    "endOffset": 85663
+                    "endOffset": 85677
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6260,10 +6260,10 @@
                 "to": {
                     "startLine": 1109,
                     "startColumn": 4,
-                    "startOffset": 85668,
+                    "startOffset": 85682,
                     "endLine": 1110,
                     "endColumn": 12,
-                    "endOffset": 85787
+                    "endOffset": 85801
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6281,10 +6281,10 @@
                 "to": {
                     "startLine": 1111,
                     "startColumn": 4,
-                    "startOffset": 85792,
+                    "startOffset": 85806,
                     "endLine": 1114,
                     "endColumn": 12,
-                    "endOffset": 86072
+                    "endOffset": 86086
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6302,10 +6302,10 @@
                 "to": {
                     "startLine": 1115,
                     "startColumn": 4,
-                    "startOffset": 86077,
+                    "startOffset": 86091,
                     "endLine": 1122,
                     "endColumn": 12,
-                    "endOffset": 86580
+                    "endOffset": 86594
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6323,10 +6323,10 @@
                 "to": {
                     "startLine": 1123,
                     "startColumn": 4,
-                    "startOffset": 86585,
+                    "startOffset": 86599,
                     "endLine": 1130,
                     "endColumn": 12,
-                    "endOffset": 87076
+                    "endOffset": 87090
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6344,10 +6344,10 @@
                 "to": {
                     "startLine": 1131,
                     "startColumn": 4,
-                    "startOffset": 87081,
+                    "startOffset": 87095,
                     "endLine": 1142,
                     "endColumn": 12,
-                    "endOffset": 87963
+                    "endOffset": 87977
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6365,10 +6365,10 @@
                 "to": {
                     "startLine": 1143,
                     "startColumn": 4,
-                    "startOffset": 87968,
+                    "startOffset": 87982,
                     "endLine": 1148,
                     "endColumn": 12,
-                    "endOffset": 88257
+                    "endOffset": 88271
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6386,10 +6386,10 @@
                 "to": {
                     "startLine": 1149,
                     "startColumn": 4,
-                    "startOffset": 88262,
+                    "startOffset": 88276,
                     "endLine": 1157,
                     "endColumn": 12,
-                    "endOffset": 88827
+                    "endOffset": 88841
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6407,10 +6407,10 @@
                 "to": {
                     "startLine": 1158,
                     "startColumn": 4,
-                    "startOffset": 88832,
+                    "startOffset": 88846,
                     "endLine": 1168,
                     "endColumn": 12,
-                    "endOffset": 89559
+                    "endOffset": 89573
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6428,10 +6428,10 @@
                 "to": {
                     "startLine": 1169,
                     "startColumn": 4,
-                    "startOffset": 89564,
+                    "startOffset": 89578,
                     "endLine": 1171,
                     "endColumn": 12,
-                    "endOffset": 89731
+                    "endOffset": 89745
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6449,10 +6449,10 @@
                 "to": {
                     "startLine": 1172,
                     "startColumn": 4,
-                    "startOffset": 89736,
+                    "startOffset": 89750,
                     "endLine": 1176,
                     "endColumn": 12,
-                    "endOffset": 90067
+                    "endOffset": 90081
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6470,10 +6470,10 @@
                 "to": {
                     "startLine": 1177,
                     "startColumn": 4,
-                    "startOffset": 90072,
+                    "startOffset": 90086,
                     "endLine": 1188,
                     "endColumn": 12,
-                    "endOffset": 90975
+                    "endOffset": 90989
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6491,10 +6491,10 @@
                 "to": {
                     "startLine": 1189,
                     "startColumn": 4,
-                    "startOffset": 90980,
+                    "startOffset": 90994,
                     "endLine": 1193,
                     "endColumn": 12,
-                    "endOffset": 91253
+                    "endOffset": 91267
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6512,10 +6512,10 @@
                 "to": {
                     "startLine": 1194,
                     "startColumn": 4,
-                    "startOffset": 91258,
+                    "startOffset": 91272,
                     "endLine": 1231,
                     "endColumn": 12,
-                    "endOffset": 94115
+                    "endOffset": 94129
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6533,10 +6533,10 @@
                 "to": {
                     "startLine": 1232,
                     "startColumn": 4,
-                    "startOffset": 94120,
+                    "startOffset": 94134,
                     "endLine": 1270,
                     "endColumn": 12,
-                    "endOffset": 97117
+                    "endOffset": 97131
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6554,9 +6554,9 @@
                 "to": {
                     "startLine": 1271,
                     "startColumn": 4,
-                    "startOffset": 97122,
+                    "startOffset": 97136,
                     "endColumn": 61,
-                    "endOffset": 97179
+                    "endOffset": 97193
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6573,10 +6573,10 @@
                 "to": {
                     "startLine": 1272,
                     "startColumn": 4,
-                    "startOffset": 97184,
+                    "startOffset": 97198,
                     "endLine": 1281,
                     "endColumn": 12,
-                    "endOffset": 97809
+                    "endOffset": 97823
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6594,10 +6594,10 @@
                 "to": {
                     "startLine": 1282,
                     "startColumn": 4,
-                    "startOffset": 97814,
+                    "startOffset": 97828,
                     "endLine": 1290,
                     "endColumn": 12,
-                    "endOffset": 98423
+                    "endOffset": 98437
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6615,9 +6615,9 @@
                 "to": {
                     "startLine": 1291,
                     "startColumn": 4,
-                    "startOffset": 98428,
+                    "startOffset": 98442,
                     "endColumn": 85,
-                    "endOffset": 98509
+                    "endOffset": 98523
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6634,10 +6634,10 @@
                 "to": {
                     "startLine": 1292,
                     "startColumn": 4,
-                    "startOffset": 98514,
+                    "startOffset": 98528,
                     "endLine": 1293,
                     "endColumn": 12,
-                    "endOffset": 98622
+                    "endOffset": 98636
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6655,10 +6655,10 @@
                 "to": {
                     "startLine": 1294,
                     "startColumn": 4,
-                    "startOffset": 98627,
+                    "startOffset": 98641,
                     "endLine": 1297,
                     "endColumn": 12,
-                    "endOffset": 98851
+                    "endOffset": 98865
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6676,10 +6676,10 @@
                 "to": {
                     "startLine": 1298,
                     "startColumn": 4,
-                    "startOffset": 98856,
+                    "startOffset": 98870,
                     "endLine": 1300,
                     "endColumn": 12,
-                    "endOffset": 99011
+                    "endOffset": 99025
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6697,10 +6697,10 @@
                 "to": {
                     "startLine": 1301,
                     "startColumn": 4,
-                    "startOffset": 99016,
+                    "startOffset": 99030,
                     "endLine": 1303,
                     "endColumn": 12,
-                    "endOffset": 99163
+                    "endOffset": 99177
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6718,10 +6718,10 @@
                 "to": {
                     "startLine": 1304,
                     "startColumn": 4,
-                    "startOffset": 99168,
+                    "startOffset": 99182,
                     "endLine": 1306,
                     "endColumn": 12,
-                    "endOffset": 99334
+                    "endOffset": 99348
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6739,10 +6739,10 @@
                 "to": {
                     "startLine": 1307,
                     "startColumn": 4,
-                    "startOffset": 99339,
+                    "startOffset": 99353,
                     "endLine": 1309,
                     "endColumn": 12,
-                    "endOffset": 99501
+                    "endOffset": 99515
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6760,10 +6760,10 @@
                 "to": {
                     "startLine": 1310,
                     "startColumn": 4,
-                    "startOffset": 99506,
+                    "startOffset": 99520,
                     "endLine": 1313,
                     "endColumn": 12,
-                    "endOffset": 99744
+                    "endOffset": 99758
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6781,10 +6781,10 @@
                 "to": {
                     "startLine": 1314,
                     "startColumn": 4,
-                    "startOffset": 99749,
+                    "startOffset": 99763,
                     "endLine": 1316,
                     "endColumn": 12,
-                    "endOffset": 99914
+                    "endOffset": 99928
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6802,10 +6802,10 @@
                 "to": {
                     "startLine": 1317,
                     "startColumn": 4,
-                    "startOffset": 99919,
+                    "startOffset": 99933,
                     "endLine": 1319,
                     "endColumn": 12,
-                    "endOffset": 100087
+                    "endOffset": 100101
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6823,10 +6823,10 @@
                 "to": {
                     "startLine": 1320,
                     "startColumn": 4,
-                    "startOffset": 100092,
+                    "startOffset": 100106,
                     "endLine": 1322,
                     "endColumn": 12,
-                    "endOffset": 100258
+                    "endOffset": 100272
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6844,10 +6844,10 @@
                 "to": {
                     "startLine": 1323,
                     "startColumn": 4,
-                    "startOffset": 100263,
+                    "startOffset": 100277,
                     "endLine": 1326,
                     "endColumn": 12,
-                    "endOffset": 100532
+                    "endOffset": 100546
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6865,10 +6865,10 @@
                 "to": {
                     "startLine": 1327,
                     "startColumn": 4,
-                    "startOffset": 100537,
+                    "startOffset": 100551,
                     "endLine": 1329,
                     "endColumn": 12,
-                    "endOffset": 100731
+                    "endOffset": 100745
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6886,10 +6886,10 @@
                 "to": {
                     "startLine": 1330,
                     "startColumn": 4,
-                    "startOffset": 100736,
+                    "startOffset": 100750,
                     "endLine": 1333,
                     "endColumn": 12,
-                    "endOffset": 100936
+                    "endOffset": 100950
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6907,10 +6907,10 @@
                 "to": {
                     "startLine": 1334,
                     "startColumn": 4,
-                    "startOffset": 100941,
+                    "startOffset": 100955,
                     "endLine": 1337,
                     "endColumn": 12,
-                    "endOffset": 101266
+                    "endOffset": 101280
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6928,9 +6928,9 @@
                 "to": {
                     "startLine": 1338,
                     "startColumn": 4,
-                    "startOffset": 101271,
+                    "startOffset": 101285,
                     "endColumn": 83,
-                    "endOffset": 101350
+                    "endOffset": 101364
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6947,9 +6947,9 @@
                 "to": {
                     "startLine": 1339,
                     "startColumn": 4,
-                    "startOffset": 101355,
+                    "startOffset": 101369,
                     "endColumn": 95,
-                    "endOffset": 101446
+                    "endOffset": 101460
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6966,9 +6966,9 @@
                 "to": {
                     "startLine": 1340,
                     "startColumn": 4,
-                    "startOffset": 101451,
+                    "startOffset": 101465,
                     "endColumn": 95,
-                    "endOffset": 101542
+                    "endOffset": 101556
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -6985,9 +6985,9 @@
                 "to": {
                     "startLine": 1341,
                     "startColumn": 4,
-                    "startOffset": 101547,
+                    "startOffset": 101561,
                     "endColumn": 97,
-                    "endOffset": 101640
+                    "endOffset": 101654
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7004,9 +7004,9 @@
                 "to": {
                     "startLine": 1342,
                     "startColumn": 4,
-                    "startOffset": 101645,
+                    "startOffset": 101659,
                     "endColumn": 99,
-                    "endOffset": 101740
+                    "endOffset": 101754
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7023,9 +7023,9 @@
                 "to": {
                     "startLine": 1343,
                     "startColumn": 4,
-                    "startOffset": 101745,
+                    "startOffset": 101759,
                     "endColumn": 101,
-                    "endOffset": 101842
+                    "endOffset": 101856
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7042,9 +7042,9 @@
                 "to": {
                     "startLine": 1344,
                     "startColumn": 4,
-                    "startOffset": 101847,
+                    "startOffset": 101861,
                     "endColumn": 101,
-                    "endOffset": 101944
+                    "endOffset": 101958
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7061,9 +7061,9 @@
                 "to": {
                     "startLine": 1345,
                     "startColumn": 4,
-                    "startOffset": 101949,
+                    "startOffset": 101963,
                     "endColumn": 101,
-                    "endOffset": 102046
+                    "endOffset": 102060
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7080,9 +7080,9 @@
                 "to": {
                     "startLine": 1346,
                     "startColumn": 4,
-                    "startOffset": 102051,
+                    "startOffset": 102065,
                     "endColumn": 101,
-                    "endOffset": 102148
+                    "endOffset": 102162
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7099,9 +7099,9 @@
                 "to": {
                     "startLine": 1347,
                     "startColumn": 4,
-                    "startOffset": 102153,
+                    "startOffset": 102167,
                     "endColumn": 101,
-                    "endOffset": 102250
+                    "endOffset": 102264
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7118,9 +7118,9 @@
                 "to": {
                     "startLine": 1348,
                     "startColumn": 4,
-                    "startOffset": 102255,
+                    "startOffset": 102269,
                     "endColumn": 99,
-                    "endOffset": 102350
+                    "endOffset": 102364
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7137,9 +7137,9 @@
                 "to": {
                     "startLine": 1349,
                     "startColumn": 4,
-                    "startOffset": 102355,
+                    "startOffset": 102369,
                     "endColumn": 95,
-                    "endOffset": 102446
+                    "endOffset": 102460
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7156,9 +7156,9 @@
                 "to": {
                     "startLine": 1350,
                     "startColumn": 4,
-                    "startOffset": 102451,
+                    "startOffset": 102465,
                     "endColumn": 111,
-                    "endOffset": 102558
+                    "endOffset": 102572
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7175,9 +7175,9 @@
                 "to": {
                     "startLine": 1351,
                     "startColumn": 4,
-                    "startOffset": 102563,
+                    "startOffset": 102577,
                     "endColumn": 128,
-                    "endOffset": 102687
+                    "endOffset": 102701
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7194,9 +7194,9 @@
                 "to": {
                     "startLine": 1352,
                     "startColumn": 4,
-                    "startOffset": 102692,
+                    "startOffset": 102706,
                     "endColumn": 122,
-                    "endOffset": 102810
+                    "endOffset": 102824
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7213,10 +7213,10 @@
                 "to": {
                     "startLine": 1353,
                     "startColumn": 4,
-                    "startOffset": 102815,
+                    "startOffset": 102829,
                     "endLine": 1354,
                     "endColumn": 12,
-                    "endOffset": 102964
+                    "endOffset": 102978
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7234,10 +7234,10 @@
                 "to": {
                     "startLine": 1355,
                     "startColumn": 4,
-                    "startOffset": 102969,
+                    "startOffset": 102983,
                     "endLine": 1356,
                     "endColumn": 12,
-                    "endOffset": 103118
+                    "endOffset": 103132
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7255,9 +7255,9 @@
                 "to": {
                     "startLine": 1357,
                     "startColumn": 4,
-                    "startOffset": 103123,
+                    "startOffset": 103137,
                     "endColumn": 97,
-                    "endOffset": 103216
+                    "endOffset": 103230
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7274,9 +7274,9 @@
                 "to": {
                     "startLine": 1358,
                     "startColumn": 4,
-                    "startOffset": 103221,
+                    "startOffset": 103235,
                     "endColumn": 113,
-                    "endOffset": 103330
+                    "endOffset": 103344
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7293,9 +7293,9 @@
                 "to": {
                     "startLine": 1359,
                     "startColumn": 4,
-                    "startOffset": 103335,
+                    "startOffset": 103349,
                     "endColumn": 93,
-                    "endOffset": 103424
+                    "endOffset": 103438
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7312,10 +7312,10 @@
                 "to": {
                     "startLine": 1360,
                     "startColumn": 4,
-                    "startOffset": 103429,
+                    "startOffset": 103443,
                     "endLine": 1361,
                     "endColumn": 12,
-                    "endOffset": 103564
+                    "endOffset": 103578
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7333,10 +7333,10 @@
                 "to": {
                     "startLine": 1362,
                     "startColumn": 4,
-                    "startOffset": 103569,
+                    "startOffset": 103583,
                     "endLine": 1363,
                     "endColumn": 12,
-                    "endOffset": 103698
+                    "endOffset": 103712
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7354,9 +7354,9 @@
                 "to": {
                     "startLine": 1364,
                     "startColumn": 4,
-                    "startOffset": 103703,
+                    "startOffset": 103717,
                     "endColumn": 95,
-                    "endOffset": 103794
+                    "endOffset": 103808
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7373,9 +7373,9 @@
                 "to": {
                     "startLine": 1365,
                     "startColumn": 4,
-                    "startOffset": 103799,
+                    "startOffset": 103813,
                     "endColumn": 111,
-                    "endOffset": 103906
+                    "endOffset": 103920
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7392,9 +7392,9 @@
                 "to": {
                     "startLine": 1366,
                     "startColumn": 4,
-                    "startOffset": 103911,
+                    "startOffset": 103925,
                     "endColumn": 99,
-                    "endOffset": 104006
+                    "endOffset": 104020
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7411,9 +7411,9 @@
                 "to": {
                     "startLine": 1367,
                     "startColumn": 4,
-                    "startOffset": 104011,
+                    "startOffset": 104025,
                     "endColumn": 115,
-                    "endOffset": 104122
+                    "endOffset": 104136
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7430,9 +7430,9 @@
                 "to": {
                     "startLine": 1368,
                     "startColumn": 4,
-                    "startOffset": 104127,
+                    "startOffset": 104141,
                     "endColumn": 95,
-                    "endOffset": 104218
+                    "endOffset": 104232
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7449,9 +7449,9 @@
                 "to": {
                     "startLine": 1369,
                     "startColumn": 4,
-                    "startOffset": 104223,
+                    "startOffset": 104237,
                     "endColumn": 111,
-                    "endOffset": 104330
+                    "endOffset": 104344
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7468,10 +7468,10 @@
                 "to": {
                     "startLine": 1370,
                     "startColumn": 4,
-                    "startOffset": 104335,
+                    "startOffset": 104349,
                     "endLine": 1371,
                     "endColumn": 12,
-                    "endOffset": 104470
+                    "endOffset": 104484
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7489,9 +7489,9 @@
                 "to": {
                     "startLine": 1372,
                     "startColumn": 4,
-                    "startOffset": 104475,
+                    "startOffset": 104489,
                     "endColumn": 135,
-                    "endOffset": 104606
+                    "endOffset": 104620
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7508,10 +7508,10 @@
                 "to": {
                     "startLine": 1373,
                     "startColumn": 4,
-                    "startOffset": 104611,
+                    "startOffset": 104625,
                     "endLine": 1374,
                     "endColumn": 12,
-                    "endOffset": 104770
+                    "endOffset": 104784
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7529,9 +7529,9 @@
                 "to": {
                     "startLine": 1375,
                     "startColumn": 4,
-                    "startOffset": 104775,
+                    "startOffset": 104789,
                     "endColumn": 129,
-                    "endOffset": 104900
+                    "endOffset": 104914
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7548,10 +7548,10 @@
                 "to": {
                     "startLine": 1376,
                     "startColumn": 4,
-                    "startOffset": 104905,
+                    "startOffset": 104919,
                     "endLine": 1377,
                     "endColumn": 12,
-                    "endOffset": 105058
+                    "endOffset": 105072
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7569,10 +7569,10 @@
                 "to": {
                     "startLine": 1378,
                     "startColumn": 4,
-                    "startOffset": 105063,
+                    "startOffset": 105077,
                     "endLine": 1379,
                     "endColumn": 12,
-                    "endOffset": 105208
+                    "endOffset": 105222
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7590,9 +7590,9 @@
                 "to": {
                     "startLine": 1380,
                     "startColumn": 4,
-                    "startOffset": 105213,
+                    "startOffset": 105227,
                     "endColumn": 140,
-                    "endOffset": 105349
+                    "endOffset": 105363
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7609,10 +7609,10 @@
                 "to": {
                     "startLine": 1381,
                     "startColumn": 4,
-                    "startOffset": 105354,
+                    "startOffset": 105368,
                     "endLine": 1382,
                     "endColumn": 12,
-                    "endOffset": 105493
+                    "endOffset": 105507
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7630,9 +7630,9 @@
                 "to": {
                     "startLine": 1383,
                     "startColumn": 4,
-                    "startOffset": 105498,
+                    "startOffset": 105512,
                     "endColumn": 134,
-                    "endOffset": 105628
+                    "endOffset": 105642
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7649,9 +7649,9 @@
                 "to": {
                     "startLine": 1384,
                     "startColumn": 4,
-                    "startOffset": 105633,
+                    "startOffset": 105647,
                     "endColumn": 111,
-                    "endOffset": 105740
+                    "endOffset": 105754
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7668,9 +7668,9 @@
                 "to": {
                     "startLine": 1385,
                     "startColumn": 4,
-                    "startOffset": 105745,
+                    "startOffset": 105759,
                     "endColumn": 127,
-                    "endOffset": 105868
+                    "endOffset": 105882
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7687,10 +7687,10 @@
                 "to": {
                     "startLine": 1386,
                     "startColumn": 4,
-                    "startOffset": 105873,
+                    "startOffset": 105887,
                     "endLine": 1387,
                     "endColumn": 12,
-                    "endOffset": 106004
+                    "endOffset": 106018
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7708,10 +7708,10 @@
                 "to": {
                     "startLine": 1388,
                     "startColumn": 4,
-                    "startOffset": 106009,
+                    "startOffset": 106023,
                     "endLine": 1389,
                     "endColumn": 12,
-                    "endOffset": 106146
+                    "endOffset": 106160
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7729,10 +7729,10 @@
                 "to": {
                     "startLine": 1390,
                     "startColumn": 4,
-                    "startOffset": 106151,
+                    "startOffset": 106165,
                     "endLine": 1391,
                     "endColumn": 12,
-                    "endOffset": 106288
+                    "endOffset": 106302
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7750,9 +7750,9 @@
                 "to": {
                     "startLine": 1392,
                     "startColumn": 4,
-                    "startOffset": 106293,
+                    "startOffset": 106307,
                     "endColumn": 111,
-                    "endOffset": 106400
+                    "endOffset": 106414
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7769,9 +7769,9 @@
                 "to": {
                     "startLine": 1393,
                     "startColumn": 4,
-                    "startOffset": 106405,
+                    "startOffset": 106419,
                     "endColumn": 139,
-                    "endOffset": 106540
+                    "endOffset": 106554
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7788,9 +7788,9 @@
                 "to": {
                     "startLine": 1394,
                     "startColumn": 4,
-                    "startOffset": 106545,
+                    "startOffset": 106559,
                     "endColumn": 67,
-                    "endOffset": 106608
+                    "endOffset": 106622
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7807,9 +7807,9 @@
                 "to": {
                     "startLine": 1395,
                     "startColumn": 4,
-                    "startOffset": 106613,
+                    "startOffset": 106627,
                     "endColumn": 72,
-                    "endOffset": 106681
+                    "endOffset": 106695
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7826,9 +7826,9 @@
                 "to": {
                     "startLine": 1396,
                     "startColumn": 4,
-                    "startOffset": 106686,
+                    "startOffset": 106700,
                     "endColumn": 73,
-                    "endOffset": 106755
+                    "endOffset": 106769
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7845,9 +7845,9 @@
                 "to": {
                     "startLine": 1397,
                     "startColumn": 4,
-                    "startOffset": 106760,
+                    "startOffset": 106774,
                     "endColumn": 72,
-                    "endOffset": 106828
+                    "endOffset": 106842
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7864,9 +7864,9 @@
                 "to": {
                     "startLine": 1398,
                     "startColumn": 4,
-                    "startOffset": 106833,
+                    "startOffset": 106847,
                     "endColumn": 73,
-                    "endOffset": 106902
+                    "endOffset": 106916
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7883,10 +7883,10 @@
                 "to": {
                     "startLine": 1399,
                     "startColumn": 4,
-                    "startOffset": 106907,
+                    "startOffset": 106921,
                     "endLine": 1400,
                     "endColumn": 12,
-                    "endOffset": 107048
+                    "endOffset": 107062
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7904,10 +7904,10 @@
                 "to": {
                     "startLine": 1401,
                     "startColumn": 4,
-                    "startOffset": 107053,
+                    "startOffset": 107067,
                     "endLine": 1402,
                     "endColumn": 12,
-                    "endOffset": 107192
+                    "endOffset": 107206
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7925,10 +7925,10 @@
                 "to": {
                     "startLine": 1403,
                     "startColumn": 4,
-                    "startOffset": 107197,
+                    "startOffset": 107211,
                     "endLine": 1404,
                     "endColumn": 12,
-                    "endOffset": 107330
+                    "endOffset": 107344
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7946,9 +7946,9 @@
                 "to": {
                     "startLine": 1405,
                     "startColumn": 4,
-                    "startOffset": 107335,
+                    "startOffset": 107349,
                     "endColumn": 65,
-                    "endOffset": 107396
+                    "endOffset": 107410
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7965,9 +7965,9 @@
                 "to": {
                     "startLine": 1406,
                     "startColumn": 4,
-                    "startOffset": 107401,
+                    "startOffset": 107415,
                     "endColumn": 89,
-                    "endOffset": 107486
+                    "endOffset": 107500
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -7984,9 +7984,9 @@
                 "to": {
                     "startLine": 1407,
                     "startColumn": 4,
-                    "startOffset": 107491,
+                    "startOffset": 107505,
                     "endColumn": 75,
-                    "endOffset": 107562
+                    "endOffset": 107576
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8003,9 +8003,9 @@
                 "to": {
                     "startLine": 1408,
                     "startColumn": 4,
-                    "startOffset": 107567,
+                    "startOffset": 107581,
                     "endColumn": 103,
-                    "endOffset": 107666
+                    "endOffset": 107680
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8022,9 +8022,9 @@
                 "to": {
                     "startLine": 1409,
                     "startColumn": 4,
-                    "startOffset": 107671,
+                    "startOffset": 107685,
                     "endColumn": 89,
-                    "endOffset": 107756
+                    "endOffset": 107770
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8041,9 +8041,9 @@
                 "to": {
                     "startLine": 1410,
                     "startColumn": 4,
-                    "startOffset": 107761,
+                    "startOffset": 107775,
                     "endColumn": 101,
-                    "endOffset": 107858
+                    "endOffset": 107872
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8060,9 +8060,9 @@
                 "to": {
                     "startLine": 1411,
                     "startColumn": 4,
-                    "startOffset": 107863,
+                    "startOffset": 107877,
                     "endColumn": 107,
-                    "endOffset": 107966
+                    "endOffset": 107980
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8079,9 +8079,9 @@
                 "to": {
                     "startLine": 1412,
                     "startColumn": 4,
-                    "startOffset": 107971,
+                    "startOffset": 107985,
                     "endColumn": 107,
-                    "endOffset": 108074
+                    "endOffset": 108088
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8098,9 +8098,9 @@
                 "to": {
                     "startLine": 1413,
                     "startColumn": 4,
-                    "startOffset": 108079,
+                    "startOffset": 108093,
                     "endColumn": 99,
-                    "endOffset": 108174
+                    "endOffset": 108188
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8117,9 +8117,9 @@
                 "to": {
                     "startLine": 1414,
                     "startColumn": 4,
-                    "startOffset": 108179,
+                    "startOffset": 108193,
                     "endColumn": 79,
-                    "endOffset": 108254
+                    "endOffset": 108268
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8136,9 +8136,9 @@
                 "to": {
                     "startLine": 1415,
                     "startColumn": 4,
-                    "startOffset": 108259,
+                    "startOffset": 108273,
                     "endColumn": 91,
-                    "endOffset": 108346
+                    "endOffset": 108360
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8155,9 +8155,9 @@
                 "to": {
                     "startLine": 1416,
                     "startColumn": 4,
-                    "startOffset": 108351,
+                    "startOffset": 108365,
                     "endColumn": 97,
-                    "endOffset": 108444
+                    "endOffset": 108458
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8174,10 +8174,10 @@
                 "to": {
                     "startLine": 1417,
                     "startColumn": 4,
-                    "startOffset": 108449,
+                    "startOffset": 108463,
                     "endLine": 1418,
                     "endColumn": 12,
-                    "endOffset": 108554
+                    "endOffset": 108568
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8195,9 +8195,9 @@
                 "to": {
                     "startLine": 1419,
                     "startColumn": 4,
-                    "startOffset": 108559,
+                    "startOffset": 108573,
                     "endColumn": 77,
-                    "endOffset": 108632
+                    "endOffset": 108646
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8214,9 +8214,9 @@
                 "to": {
                     "startLine": 1420,
                     "startColumn": 4,
-                    "startOffset": 108637,
+                    "startOffset": 108651,
                     "endColumn": 105,
-                    "endOffset": 108738
+                    "endOffset": 108752
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8233,9 +8233,9 @@
                 "to": {
                     "startLine": 1421,
                     "startColumn": 4,
-                    "startOffset": 108743,
+                    "startOffset": 108757,
                     "endColumn": 91,
-                    "endOffset": 108830
+                    "endOffset": 108844
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8252,9 +8252,9 @@
                 "to": {
                     "startLine": 1422,
                     "startColumn": 4,
-                    "startOffset": 108835,
+                    "startOffset": 108849,
                     "endColumn": 103,
-                    "endOffset": 108934
+                    "endOffset": 108948
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8271,9 +8271,9 @@
                 "to": {
                     "startLine": 1423,
                     "startColumn": 4,
-                    "startOffset": 108939,
+                    "startOffset": 108953,
                     "endColumn": 109,
-                    "endOffset": 109044
+                    "endOffset": 109058
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8290,10 +8290,10 @@
                 "to": {
                     "startLine": 1424,
                     "startColumn": 4,
-                    "startOffset": 109049,
+                    "startOffset": 109063,
                     "endLine": 1425,
                     "endColumn": 12,
-                    "endOffset": 109166
+                    "endOffset": 109180
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8311,10 +8311,10 @@
                 "to": {
                     "startLine": 1426,
                     "startColumn": 4,
-                    "startOffset": 109171,
+                    "startOffset": 109185,
                     "endLine": 1429,
                     "endColumn": 12,
-                    "endOffset": 109329
+                    "endOffset": 109343
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8332,10 +8332,10 @@
                 "to": {
                     "startLine": 1430,
                     "startColumn": 4,
-                    "startOffset": 109334,
+                    "startOffset": 109348,
                     "endLine": 1433,
                     "endColumn": 12,
-                    "endOffset": 109486
+                    "endOffset": 109500
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8353,9 +8353,9 @@
                 "to": {
                     "startLine": 1434,
                     "startColumn": 4,
-                    "startOffset": 109491,
+                    "startOffset": 109505,
                     "endColumn": 79,
-                    "endOffset": 109566
+                    "endOffset": 109580
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8372,9 +8372,9 @@
                 "to": {
                     "startLine": 1435,
                     "startColumn": 4,
-                    "startOffset": 109571,
+                    "startOffset": 109585,
                     "endColumn": 99,
-                    "endOffset": 109666
+                    "endOffset": 109680
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8391,9 +8391,9 @@
                 "to": {
                     "startLine": 1436,
                     "startColumn": 4,
-                    "startOffset": 109671,
+                    "startOffset": 109685,
                     "endColumn": 89,
-                    "endOffset": 109756
+                    "endOffset": 109770
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8410,9 +8410,9 @@
                 "to": {
                     "startLine": 1437,
                     "startColumn": 4,
-                    "startOffset": 109761,
+                    "startOffset": 109775,
                     "endColumn": 109,
-                    "endOffset": 109866
+                    "endOffset": 109880
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8429,9 +8429,9 @@
                 "to": {
                     "startLine": 1438,
                     "startColumn": 4,
-                    "startOffset": 109871,
+                    "startOffset": 109885,
                     "endColumn": 91,
-                    "endOffset": 109958
+                    "endOffset": 109972
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8448,10 +8448,10 @@
                 "to": {
                     "startLine": 1439,
                     "startColumn": 4,
-                    "startOffset": 109963,
+                    "startOffset": 109977,
                     "endLine": 1440,
                     "endColumn": 12,
-                    "endOffset": 110058
+                    "endOffset": 110072
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8469,10 +8469,10 @@
                 "to": {
                     "startLine": 1441,
                     "startColumn": 4,
-                    "startOffset": 110063,
+                    "startOffset": 110077,
                     "endLine": 1442,
                     "endColumn": 12,
-                    "endOffset": 110170
+                    "endOffset": 110184
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8490,10 +8490,10 @@
                 "to": {
                     "startLine": 1443,
                     "startColumn": 4,
-                    "startOffset": 110175,
+                    "startOffset": 110189,
                     "endLine": 1444,
                     "endColumn": 12,
-                    "endOffset": 110284
+                    "endOffset": 110298
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8511,10 +8511,10 @@
                 "to": {
                     "startLine": 1445,
                     "startColumn": 4,
-                    "startOffset": 110289,
+                    "startOffset": 110303,
                     "endLine": 1446,
                     "endColumn": 12,
-                    "endOffset": 110400
+                    "endOffset": 110414
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8532,10 +8532,10 @@
                 "to": {
                     "startLine": 1447,
                     "startColumn": 4,
-                    "startOffset": 110405,
+                    "startOffset": 110419,
                     "endLine": 1448,
                     "endColumn": 12,
-                    "endOffset": 110516
+                    "endOffset": 110530
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8553,9 +8553,9 @@
                 "to": {
                     "startLine": 1449,
                     "startColumn": 4,
-                    "startOffset": 110521,
+                    "startOffset": 110535,
                     "endColumn": 93,
-                    "endOffset": 110610
+                    "endOffset": 110624
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8572,9 +8572,9 @@
                 "to": {
                     "startLine": 1450,
                     "startColumn": 4,
-                    "startOffset": 110615,
+                    "startOffset": 110629,
                     "endColumn": 113,
-                    "endOffset": 110724
+                    "endOffset": 110738
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8591,9 +8591,9 @@
                 "to": {
                     "startLine": 1451,
                     "startColumn": 4,
-                    "startOffset": 110729,
+                    "startOffset": 110743,
                     "endColumn": 111,
-                    "endOffset": 110836
+                    "endOffset": 110850
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8610,10 +8610,10 @@
                 "to": {
                     "startLine": 1452,
                     "startColumn": 4,
-                    "startOffset": 110841,
+                    "startOffset": 110855,
                     "endLine": 1453,
                     "endColumn": 12,
-                    "endOffset": 110938
+                    "endOffset": 110952
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8631,10 +8631,10 @@
                 "to": {
                     "startLine": 1454,
                     "startColumn": 4,
-                    "startOffset": 110943,
+                    "startOffset": 110957,
                     "endLine": 1455,
                     "endColumn": 12,
-                    "endOffset": 111058
+                    "endOffset": 111072
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8652,10 +8652,10 @@
                 "to": {
                     "startLine": 1456,
                     "startColumn": 4,
-                    "startOffset": 111063,
+                    "startOffset": 111077,
                     "endLine": 1457,
                     "endColumn": 12,
-                    "endOffset": 111180
+                    "endOffset": 111194
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8673,9 +8673,9 @@
                 "to": {
                     "startLine": 1458,
                     "startColumn": 4,
-                    "startOffset": 111185,
+                    "startOffset": 111199,
                     "endColumn": 81,
-                    "endOffset": 111262
+                    "endOffset": 111276
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8692,9 +8692,9 @@
                 "to": {
                     "startLine": 1459,
                     "startColumn": 4,
-                    "startOffset": 111267,
+                    "startOffset": 111281,
                     "endColumn": 103,
-                    "endOffset": 111366
+                    "endOffset": 111380
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8711,9 +8711,9 @@
                 "to": {
                     "startLine": 1460,
                     "startColumn": 4,
-                    "startOffset": 111371,
+                    "startOffset": 111385,
                     "endColumn": 119,
-                    "endOffset": 111486
+                    "endOffset": 111500
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8730,9 +8730,9 @@
                 "to": {
                     "startLine": 1461,
                     "startColumn": 4,
-                    "startOffset": 111491,
+                    "startOffset": 111505,
                     "endColumn": 125,
-                    "endOffset": 111612
+                    "endOffset": 111626
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8749,9 +8749,9 @@
                 "to": {
                     "startLine": 1462,
                     "startColumn": 4,
-                    "startOffset": 111617,
+                    "startOffset": 111631,
                     "endColumn": 97,
-                    "endOffset": 111710
+                    "endOffset": 111724
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8768,9 +8768,9 @@
                 "to": {
                     "startLine": 1463,
                     "startColumn": 4,
-                    "startOffset": 111715,
+                    "startOffset": 111729,
                     "endColumn": 93,
-                    "endOffset": 111804
+                    "endOffset": 111818
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8787,9 +8787,9 @@
                 "to": {
                     "startLine": 1464,
                     "startColumn": 4,
-                    "startOffset": 111809,
+                    "startOffset": 111823,
                     "endColumn": 87,
-                    "endOffset": 111892
+                    "endOffset": 111906
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8806,9 +8806,9 @@
                 "to": {
                     "startLine": 1465,
                     "startColumn": 4,
-                    "startOffset": 111897,
+                    "startOffset": 111911,
                     "endColumn": 111,
-                    "endOffset": 112004
+                    "endOffset": 112018
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8825,9 +8825,9 @@
                 "to": {
                     "startLine": 1466,
                     "startColumn": 4,
-                    "startOffset": 112009,
+                    "startOffset": 112023,
                     "endColumn": 115,
-                    "endOffset": 112120
+                    "endOffset": 112134
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8844,9 +8844,9 @@
                 "to": {
                     "startLine": 1467,
                     "startColumn": 4,
-                    "startOffset": 112125,
+                    "startOffset": 112139,
                     "endColumn": 121,
-                    "endOffset": 112242
+                    "endOffset": 112256
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8863,9 +8863,9 @@
                 "to": {
                     "startLine": 1468,
                     "startColumn": 4,
-                    "startOffset": 112247,
+                    "startOffset": 112261,
                     "endColumn": 111,
-                    "endOffset": 112354
+                    "endOffset": 112368
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8882,10 +8882,10 @@
                 "to": {
                     "startLine": 1469,
                     "startColumn": 4,
-                    "startOffset": 112359,
+                    "startOffset": 112373,
                     "endLine": 1471,
                     "endColumn": 12,
-                    "endOffset": 112529
+                    "endOffset": 112543
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8903,9 +8903,9 @@
                 "to": {
                     "startLine": 1472,
                     "startColumn": 4,
-                    "startOffset": 112534,
+                    "startOffset": 112548,
                     "endColumn": 115,
-                    "endOffset": 112645
+                    "endOffset": 112659
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8922,9 +8922,9 @@
                 "to": {
                     "startLine": 1473,
                     "startColumn": 4,
-                    "startOffset": 112650,
+                    "startOffset": 112664,
                     "endColumn": 85,
-                    "endOffset": 112731
+                    "endOffset": 112745
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8941,9 +8941,9 @@
                 "to": {
                     "startLine": 1474,
                     "startColumn": 4,
-                    "startOffset": 112736,
+                    "startOffset": 112750,
                     "endColumn": 91,
-                    "endOffset": 112823
+                    "endOffset": 112837
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8960,10 +8960,10 @@
                 "to": {
                     "startLine": 1475,
                     "startColumn": 4,
-                    "startOffset": 112828,
+                    "startOffset": 112842,
                     "endLine": 1476,
                     "endColumn": 12,
-                    "endOffset": 112935
+                    "endOffset": 112949
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -8981,10 +8981,10 @@
                 "to": {
                     "startLine": 1477,
                     "startColumn": 4,
-                    "startOffset": 112940,
+                    "startOffset": 112954,
                     "endLine": 1478,
                     "endColumn": 12,
-                    "endOffset": 113059
+                    "endOffset": 113073
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9002,9 +9002,9 @@
                 "to": {
                     "startLine": 1479,
                     "startColumn": 4,
-                    "startOffset": 113064,
+                    "startOffset": 113078,
                     "endColumn": 66,
-                    "endOffset": 113126
+                    "endOffset": 113140
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9021,10 +9021,10 @@
                 "to": {
                     "startLine": 1480,
                     "startColumn": 4,
-                    "startOffset": 113131,
+                    "startOffset": 113145,
                     "endLine": 1481,
                     "endColumn": 12,
-                    "endOffset": 113252
+                    "endOffset": 113266
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9042,9 +9042,9 @@
                 "to": {
                     "startLine": 1482,
                     "startColumn": 4,
-                    "startOffset": 113257,
+                    "startOffset": 113271,
                     "endColumn": 67,
-                    "endOffset": 113320
+                    "endOffset": 113334
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9061,10 +9061,10 @@
                 "to": {
                     "startLine": 1483,
                     "startColumn": 4,
-                    "startOffset": 113325,
+                    "startOffset": 113339,
                     "endLine": 1484,
                     "endColumn": 12,
-                    "endOffset": 113448
+                    "endOffset": 113462
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9082,10 +9082,10 @@
                 "to": {
                     "startLine": 1485,
                     "startColumn": 4,
-                    "startOffset": 113453,
+                    "startOffset": 113467,
                     "endLine": 1486,
                     "endColumn": 12,
-                    "endOffset": 113592
+                    "endOffset": 113606
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9103,10 +9103,10 @@
                 "to": {
                     "startLine": 1487,
                     "startColumn": 4,
-                    "startOffset": 113597,
+                    "startOffset": 113611,
                     "endLine": 1488,
                     "endColumn": 12,
-                    "endOffset": 113720
+                    "endOffset": 113734
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9124,9 +9124,9 @@
                 "to": {
                     "startLine": 1489,
                     "startColumn": 4,
-                    "startOffset": 113725,
+                    "startOffset": 113739,
                     "endColumn": 68,
-                    "endOffset": 113789
+                    "endOffset": 113803
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9143,9 +9143,9 @@
                 "to": {
                     "startLine": 1490,
                     "startColumn": 4,
-                    "startOffset": 113794,
+                    "startOffset": 113808,
                     "endColumn": 94,
-                    "endOffset": 113884
+                    "endOffset": 113898
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9162,9 +9162,9 @@
                 "to": {
                     "startLine": 1491,
                     "startColumn": 4,
-                    "startOffset": 113889,
+                    "startOffset": 113903,
                     "endColumn": 114,
-                    "endOffset": 113999
+                    "endOffset": 114013
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9181,9 +9181,9 @@
                 "to": {
                     "startLine": 1492,
                     "startColumn": 4,
-                    "startOffset": 114004,
+                    "startOffset": 114018,
                     "endColumn": 112,
-                    "endOffset": 114112
+                    "endOffset": 114126
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9200,9 +9200,9 @@
                 "to": {
                     "startLine": 1493,
                     "startColumn": 4,
-                    "startOffset": 114117,
+                    "startOffset": 114131,
                     "endColumn": 98,
-                    "endOffset": 114211
+                    "endOffset": 114225
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9219,9 +9219,9 @@
                 "to": {
                     "startLine": 1494,
                     "startColumn": 4,
-                    "startOffset": 114216,
+                    "startOffset": 114230,
                     "endColumn": 108,
-                    "endOffset": 114320
+                    "endOffset": 114334
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9238,9 +9238,9 @@
                 "to": {
                     "startLine": 1495,
                     "startColumn": 4,
-                    "startOffset": 114325,
+                    "startOffset": 114339,
                     "endColumn": 110,
-                    "endOffset": 114431
+                    "endOffset": 114445
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9257,9 +9257,9 @@
                 "to": {
                     "startLine": 1496,
                     "startColumn": 4,
-                    "startOffset": 114436,
+                    "startOffset": 114450,
                     "endColumn": 110,
-                    "endOffset": 114542
+                    "endOffset": 114556
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9276,9 +9276,9 @@
                 "to": {
                     "startLine": 1497,
                     "startColumn": 4,
-                    "startOffset": 114547,
+                    "startOffset": 114561,
                     "endColumn": 100,
-                    "endOffset": 114643
+                    "endOffset": 114657
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9295,9 +9295,9 @@
                 "to": {
                     "startLine": 1498,
                     "startColumn": 4,
-                    "startOffset": 114648,
+                    "startOffset": 114662,
                     "endColumn": 104,
-                    "endOffset": 114748
+                    "endOffset": 114762
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9314,10 +9314,10 @@
                 "to": {
                     "startLine": 1499,
                     "startColumn": 4,
-                    "startOffset": 114753,
+                    "startOffset": 114767,
                     "endLine": 1500,
                     "endColumn": 12,
-                    "endOffset": 114860
+                    "endOffset": 114874
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9335,10 +9335,10 @@
                 "to": {
                     "startLine": 1501,
                     "startColumn": 4,
-                    "startOffset": 114865,
+                    "startOffset": 114879,
                     "endLine": 1502,
                     "endColumn": 12,
-                    "endOffset": 114990
+                    "endOffset": 115004
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9356,9 +9356,9 @@
                 "to": {
                     "startLine": 1503,
                     "startColumn": 4,
-                    "startOffset": 114995,
+                    "startOffset": 115009,
                     "endColumn": 90,
-                    "endOffset": 115081
+                    "endOffset": 115095
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9375,9 +9375,9 @@
                 "to": {
                     "startLine": 1504,
                     "startColumn": 4,
-                    "startOffset": 115086,
+                    "startOffset": 115100,
                     "endColumn": 122,
-                    "endOffset": 115204
+                    "endOffset": 115218
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9394,10 +9394,10 @@
                 "to": {
                     "startLine": 1505,
                     "startColumn": 4,
-                    "startOffset": 115209,
+                    "startOffset": 115223,
                     "endLine": 1506,
                     "endColumn": 12,
-                    "endOffset": 115316
+                    "endOffset": 115330
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9415,9 +9415,9 @@
                 "to": {
                     "startLine": 1507,
                     "startColumn": 4,
-                    "startOffset": 115321,
+                    "startOffset": 115335,
                     "endColumn": 85,
-                    "endOffset": 115402
+                    "endOffset": 115416
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9434,9 +9434,9 @@
                 "to": {
                     "startLine": 1508,
                     "startColumn": 4,
-                    "startOffset": 115407,
+                    "startOffset": 115421,
                     "endColumn": 103,
-                    "endOffset": 115506
+                    "endOffset": 115520
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9453,10 +9453,10 @@
                 "to": {
                     "startLine": 1509,
                     "startColumn": 4,
-                    "startOffset": 115511,
+                    "startOffset": 115525,
                     "endLine": 1510,
                     "endColumn": 12,
-                    "endOffset": 115614
+                    "endOffset": 115628
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9474,10 +9474,10 @@
                 "to": {
                     "startLine": 1511,
                     "startColumn": 4,
-                    "startOffset": 115619,
+                    "startOffset": 115633,
                     "endLine": 1512,
                     "endColumn": 12,
-                    "endOffset": 115714
+                    "endOffset": 115728
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9495,10 +9495,10 @@
                 "to": {
                     "startLine": 1513,
                     "startColumn": 4,
-                    "startOffset": 115719,
+                    "startOffset": 115733,
                     "endLine": 1514,
                     "endColumn": 12,
-                    "endOffset": 115832
+                    "endOffset": 115846
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9516,10 +9516,10 @@
                 "to": {
                     "startLine": 1515,
                     "startColumn": 4,
-                    "startOffset": 115837,
+                    "startOffset": 115851,
                     "endLine": 1516,
                     "endColumn": 12,
-                    "endOffset": 115936
+                    "endOffset": 115950
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9537,10 +9537,10 @@
                 "to": {
                     "startLine": 1517,
                     "startColumn": 4,
-                    "startOffset": 115941,
+                    "startOffset": 115955,
                     "endLine": 1518,
                     "endColumn": 12,
-                    "endOffset": 116040
+                    "endOffset": 116054
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9558,10 +9558,10 @@
                 "to": {
                     "startLine": 1519,
                     "startColumn": 4,
-                    "startOffset": 116045,
+                    "startOffset": 116059,
                     "endLine": 1520,
                     "endColumn": 12,
-                    "endOffset": 116166
+                    "endOffset": 116180
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9579,9 +9579,9 @@
                 "to": {
                     "startLine": 1521,
                     "startColumn": 4,
-                    "startOffset": 116171,
+                    "startOffset": 116185,
                     "endColumn": 87,
-                    "endOffset": 116254
+                    "endOffset": 116268
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9598,9 +9598,9 @@
                 "to": {
                     "startLine": 1522,
                     "startColumn": 4,
-                    "startOffset": 116259,
+                    "startOffset": 116273,
                     "endColumn": 107,
-                    "endOffset": 116362
+                    "endOffset": 116376
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9617,9 +9617,9 @@
                 "to": {
                     "startLine": 1523,
                     "startColumn": 4,
-                    "startOffset": 116367,
+                    "startOffset": 116381,
                     "endColumn": 99,
-                    "endOffset": 116462
+                    "endOffset": 116476
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9636,9 +9636,9 @@
                 "to": {
                     "startLine": 1524,
                     "startColumn": 4,
-                    "startOffset": 116467,
+                    "startOffset": 116481,
                     "endColumn": 89,
-                    "endOffset": 116552
+                    "endOffset": 116566
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9655,9 +9655,9 @@
                 "to": {
                     "startLine": 1525,
                     "startColumn": 4,
-                    "startOffset": 116557,
+                    "startOffset": 116571,
                     "endColumn": 109,
-                    "endOffset": 116662
+                    "endOffset": 116676
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9674,9 +9674,9 @@
                 "to": {
                     "startLine": 1526,
                     "startColumn": 4,
-                    "startOffset": 116667,
+                    "startOffset": 116681,
                     "endColumn": 83,
-                    "endOffset": 116746
+                    "endOffset": 116760
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9693,9 +9693,9 @@
                 "to": {
                     "startLine": 1527,
                     "startColumn": 4,
-                    "startOffset": 116751,
+                    "startOffset": 116765,
                     "endColumn": 83,
-                    "endOffset": 116830
+                    "endOffset": 116844
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9712,9 +9712,9 @@
                 "to": {
                     "startLine": 1528,
                     "startColumn": 4,
-                    "startOffset": 116835,
+                    "startOffset": 116849,
                     "endColumn": 53,
-                    "endOffset": 116884
+                    "endOffset": 116898
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9731,9 +9731,9 @@
                 "to": {
                     "startLine": 1529,
                     "startColumn": 4,
-                    "startOffset": 116889,
+                    "startOffset": 116903,
                     "endColumn": 63,
-                    "endOffset": 116948
+                    "endOffset": 116962
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9750,9 +9750,9 @@
                 "to": {
                     "startLine": 1530,
                     "startColumn": 4,
-                    "startOffset": 116953,
+                    "startOffset": 116967,
                     "endColumn": 105,
-                    "endOffset": 117054
+                    "endOffset": 117068
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9769,9 +9769,9 @@
                 "to": {
                     "startLine": 1531,
                     "startColumn": 4,
-                    "startOffset": 117059,
+                    "startOffset": 117073,
                     "endColumn": 109,
-                    "endOffset": 117164
+                    "endOffset": 117178
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9788,9 +9788,9 @@
                 "to": {
                     "startLine": 1532,
                     "startColumn": 4,
-                    "startOffset": 117169,
+                    "startOffset": 117183,
                     "endColumn": 83,
-                    "endOffset": 117248
+                    "endOffset": 117262
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9807,9 +9807,9 @@
                 "to": {
                     "startLine": 1533,
                     "startColumn": 4,
-                    "startOffset": 117253,
+                    "startOffset": 117267,
                     "endColumn": 119,
-                    "endOffset": 117368
+                    "endOffset": 117382
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\values\\values.xml",
@@ -9826,20 +9826,20 @@
                 "to": {
                     "startLine": 1534,
                     "startColumn": 4,
-                    "startOffset": 117373,
+                    "startOffset": 117387,
                     "endLine": 1549,
                     "endColumn": 12,
-                    "endOffset": 118665
+                    "endOffset": 118679
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 47,
                         "startColumn": 4,
-                        "startOffset": 2058,
+                        "startOffset": 2072,
                         "endLine": 62,
                         "endColumn": 12,
-                        "endOffset": 3350
+                        "endOffset": 3364
                     }
                 }
             },
@@ -9847,20 +9847,20 @@
                 "to": {
                     "startLine": 1550,
                     "startColumn": 4,
-                    "startOffset": 118670,
+                    "startOffset": 118684,
                     "endLine": 1565,
                     "endColumn": 12,
-                    "endOffset": 119922
+                    "endOffset": 119936
                 },
                 "from": {
                     "file": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 64,
                         "startColumn": 4,
-                        "startOffset": 3360,
+                        "startOffset": 3374,
                         "endLine": 79,
                         "endColumn": 12,
-                        "endOffset": 4612
+                        "endOffset": 4626
                     }
                 }
             }

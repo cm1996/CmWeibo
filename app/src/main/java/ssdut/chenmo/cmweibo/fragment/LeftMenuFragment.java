@@ -1,8 +1,10 @@
 package ssdut.chenmo.cmweibo.fragment;
 
 
+import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
@@ -13,9 +15,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import com.getbase.floatingactionbutton.FloatingActionsMenu;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.assist.FailReason;
 import com.nostra13.universalimageloader.core.listener.ImageLoadingListener;
@@ -27,6 +33,7 @@ import butterknife.OnClick;
 import butterknife.OnItemClick;
 import de.hdodenhof.circleimageview.CircleImageView;
 import ssdut.chenmo.cmweibo.R;
+import ssdut.chenmo.cmweibo.activity.BaseActivity;
 import ssdut.chenmo.cmweibo.activity.BaseFragmentActivity;
 import ssdut.chenmo.cmweibo.activity.MainActivity;
 import ssdut.chenmo.cmweibo.activity.SelfActivity;
@@ -39,22 +46,66 @@ public class LeftMenuFragment extends BaseFragment {
 
 
     @BindView(R.id.head_imageview)
-    CircleImageView mHead;
+    public CircleImageView mHead;
     @BindView(R.id.screen_name)
-    TextView mScreenName;
+    public TextView mScreenName;
     @BindView(R.id.tv_description)
-    TextView mDescription;
+    public TextView mDescription;
     @BindView(R.id.menu_listview)
-    ListView mListView;
+    public ListView mListView;
+    @BindView(R.id.ll1)
+    public LinearLayout ll;
 
-    String[] mStrings = {"首页","消息","发现","设置","待补充1","待补充2"};
-    ArrayAdapter<String> mAdapter;
+
+    String[] mStrings = {"首页","消息","发现","设置"};
+    BaseAdapter mBaseAdapter;
 
     @Override
     protected void initDatas() {
         //初始化适配器,为ListView装入数据
-        mAdapter = new ArrayAdapter<String>(context,android.R.layout.simple_list_item_1,mStrings);
-        mListView.setAdapter(mAdapter);
+        //mListView.setAdapter(mAdapter);
+        mBaseAdapter = new BaseAdapter() {
+            @Override
+            public int getCount() {
+                return 4;
+            }
+
+            @Override
+            public Object getItem(int position) {
+                return null;
+            }
+
+            @Override
+            public long getItemId(int position) {
+                return 0;
+            }
+
+            @Override
+            public View getView(int position, View convertView, ViewGroup parent) {
+                LinearLayout ll = (LinearLayout)LayoutInflater.from(context).
+                        inflate(R.layout.layout_left_menu_list_item, parent,false);
+                ImageView iv = (ImageView) ll.findViewById(R.id.icon);
+                TextView tv = (TextView) ll.findViewById(R.id.text);
+                tv.setText(mStrings[position]);
+                switch (position){
+                    case 0:
+                        iv.setImageResource(R.mipmap.home);
+                        break;
+                    case 1:
+                        iv.setImageResource(R.mipmap.message);
+                        break;
+                    case 2:
+                        iv.setImageResource(R.mipmap.find);
+                        break;
+                    case 3:
+                        iv.setImageResource(R.mipmap.setting);
+                        break;
+                }
+                return ll;
+            }
+        };
+        mListView.setAdapter(mBaseAdapter);
+
     }
 
     @OnClick(R.id.head_imageview)
@@ -66,7 +117,6 @@ public class LeftMenuFragment extends BaseFragment {
     @OnItemClick(R.id.menu_listview)
     public void onItemClick(AdapterView<?> parent, View view, int position, long id){
         ((MainActivity)context).replaceFragment(position);
-        showToast("可以想想怎么设计嘿 "+position);
     }
 
     @Override

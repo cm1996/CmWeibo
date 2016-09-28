@@ -2,8 +2,10 @@
              xmlns:tools="http://schemas.android.com/tools"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:fab="http://schemas.android.com/apk/res-auto"
              tools:context="ssdut.chenmo.cmweibo.fragment.MainFragment"
-             android:background="@color/bg_grey">
+             android:background="#ffffff">
 
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/swiperefreshlayout"
@@ -14,4 +16,44 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fab_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="right|bottom"
+        fab:fab_addButtonColorNormal="@color/colorAccent"
+        fab:fab_addButtonColorPressed="@color/colorAccent"
+        fab:fab_addButtonPlusIconColor="@color/white"
+        fab:fab_addButtonSize="normal"
+        fab:fab_labelsPosition="right">
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_to_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/colorYellow"
+            fab:fab_size="mini"
+            fab:fab_colorPressed="@color/colorYellow"
+            app:fab_icon="@mipmap/top"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_send_weibo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_colorNormal="@color/colorGreen"
+        fab:fab_size="mini"
+        fab:fab_colorPressed="@color/colorGreen"
+        app:fab_icon="@mipmap/write"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_to_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="#ff0000"
+            fab:fab_size="mini"
+            fab:fab_colorPressed="@color/colorGreen"
+            app:fab_icon="@mipmap/bottom"/>
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
 </FrameLayout>

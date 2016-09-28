@@ -3,44 +3,63 @@
              android:layout_width="match_parent"
              android:layout_height="match_parent"
              tools:context="ssdut.chenmo.cmweibo.fragment.LeftMenuFragment"
-             android:background="@color/tianyi_blue">
+             android:background="@color/white">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/ll1">
+        android:id="@+id/ll1"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:visibility="invisible">
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/head_imageview"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:src="@drawable/xiaowanzi"
             android:layout_margin="40dp"
-            android:layout_centerHorizontal="true"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/screen_name"
-            android:gravity="center_vertical"
-            android:text="暂无昵称"
-            android:textSize="@dimen/text_size_large"/>
+            android:layout_centerHorizontal="true"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:visibility="visible">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/screen_name"
+                android:gravity="center_vertical"
+                android:text="暂无昵称"
+                android:textSize="@dimen/text_size_large"
+                android:textColor="@color/white"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_description"
+                android:text="暂无简介"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_small"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginRight="20dp"/>
+        </LinearLayout>
+
+
     </LinearLayout>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/tv_description"
-        android:layout_below="@+id/ll1"
-        android:layout_alignLeft="@+id/menu_listview"
-        android:text="暂无简介"
-        android:textSize="@dimen/text_size_small"/>
 
     <ListView
         android:id="@+id/menu_listview"
-        android:layout_below="@+id/tv_description"
+        android:paddingRight="50dp"
+        android:paddingLeft="30dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:divider="#00000000"
-        android:dividerHeight="0dip"
-        android:layout_marginLeft="40dp"
-        >
+        android:layout_height="match_parent"
+        android:divider="@color/colorPrimaryDark"
+        android:dividerHeight="1dip"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
     </ListView>
 </RelativeLayout>
