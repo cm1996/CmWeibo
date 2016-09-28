@@ -72,12 +72,12 @@
         "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\src\\main\\res\\drawable-hdpi\\ic_com_sina_weibo_sdk_logo.png"
     },
     {
-        "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
-        "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
         "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused.png",
         "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\src\\main\\res\\drawable-hdpi\\ic_com_sina_weibo_sdk_login_button_with_frame_logo_focused.png"
+    },
+    {
+        "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",

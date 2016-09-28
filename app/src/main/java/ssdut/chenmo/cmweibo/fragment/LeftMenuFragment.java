@@ -37,6 +37,7 @@ import ssdut.chenmo.cmweibo.activity.BaseActivity;
 import ssdut.chenmo.cmweibo.activity.BaseFragmentActivity;
 import ssdut.chenmo.cmweibo.activity.MainActivity;
 import ssdut.chenmo.cmweibo.activity.SelfActivity;
+import ssdut.chenmo.cmweibo.activity.UserActivity;
 import ssdut.chenmo.cmweibo.activity.WelcomeActivity;
 
 /**
@@ -110,7 +111,7 @@ public class LeftMenuFragment extends BaseFragment {
 
     @OnClick(R.id.head_imageview)
     public void onHeadClick(View v){
-        startActivity(new Intent(context,SelfActivity.class));
+        startActivity(new Intent(context,UserActivity.class));
         playOpenAnimation();
     }
 
