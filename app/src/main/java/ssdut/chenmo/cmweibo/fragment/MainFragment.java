@@ -34,6 +34,7 @@ import ssdut.chenmo.cmweibo.R;
 import ssdut.chenmo.cmweibo.activity.UserActivity;
 import ssdut.chenmo.cmweibo.adapter.DividerItemDecoration;
 import ssdut.chenmo.cmweibo.adapter.RcvAdapter;
+import ssdut.chenmo.cmweibo.adapter.RecyclerViewAdapter;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -71,8 +72,35 @@ public class MainFragment extends BaseFragment {
 
         //配置RecyclerView
         mRecyclerView.setLayoutManager(new LinearLayoutManager(context));
-        mRecyclerView.setAdapter(mAdapter = new RcvAdapter(context,mWeibos));
-        mRecyclerView.addItemDecoration(new DividerItemDecoration(context,DividerItemDecoration.VERTICAL_LIST));
+        //mRecyclerView.setAdapter(mAdapter = new RcvAdapter(context,mWeibos));
+        mRecyclerView.addItemDecoration(
+                new DividerItemDecoration(context,DividerItemDecoration.VERTICAL_LIST));
+
+        mRecyclerView.setAdapter(new RecyclerViewAdapter(context, mWeibos,
+                new RecyclerViewAdapter.MultiItemTypeSupport() {
+            @Override
+            public int getLayoutId(int itemType) {
+                return itemType;
+            }
+
+            @Override
+            public int getItemViewType(int position, Object o) {
+                if(o==null){
+                    return R.layout.layout_weibo_footer;
+                } else if(((Status)o).retweeted_status==null){ //说明是原创微博
+                    return R.layout.layout_weibo_item;
+                } else {
+                    return R.layout.layout_weibo_retweet_item;
+                }
+            }
+        }) {
+            @Override
+            public void convert(ssdut.chenmo.cmweibo.adapter.ViewHolder holder, Object o, int position) {
+                switch (getItemViewType(position)){
+
+                }
+            }
+        });
 
         mAdapter.setOnItemClickListener(new RcvAdapter.OnItemClickListener() {
             @Override
