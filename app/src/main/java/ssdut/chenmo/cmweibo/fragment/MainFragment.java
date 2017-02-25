@@ -1,6 +1,7 @@
 package ssdut.chenmo.cmweibo.fragment;
 
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
@@ -30,6 +31,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.OnClick;
 import ssdut.chenmo.cmweibo.R;
+import ssdut.chenmo.cmweibo.activity.UserActivity;
 import ssdut.chenmo.cmweibo.adapter.DividerItemDecoration;
 import ssdut.chenmo.cmweibo.adapter.RcvAdapter;
 
@@ -71,9 +73,37 @@ public class MainFragment extends BaseFragment {
         mRecyclerView.setLayoutManager(new LinearLayoutManager(context));
         mRecyclerView.setAdapter(mAdapter = new RcvAdapter(context,mWeibos));
         mRecyclerView.addItemDecoration(new DividerItemDecoration(context,DividerItemDecoration.VERTICAL_LIST));
-        /*if(mWeiboDataProvider!=null){
-            mWeiboDataProvider.updateData();
-        }*/
+
+        mAdapter.setOnItemClickListener(new RcvAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(View view, int position) {
+                showToast("fuckyou");
+            }
+        });
+        mAdapter.setOnItemAvatarClickListener(new RcvAdapter.OnItemAvatarClickListener() {
+            @Override
+            public void onItemAvatarClick(View view, int position) {
+                Intent intent = new Intent(context, UserActivity.class);
+                intent.putExtra("user_name", mWeibos.get(position).user.screen_name);
+                intent.putExtra("user_guanzhu", ""+mWeibos.get(position).user.friends_count);
+                intent.putExtra("user_fensi", ""+mWeibos.get(position).user.followers_count);
+                intent.putExtra("user_description", mWeibos.get(position).user.description);
+                intent.putExtra("user_avatar", mWeibos.get(position).user.avatar_large);
+                intent.putExtra("user_id", mWeibos.get(position).user.id);
+
+                startActivity(intent);
+                playOpenAnimation();
+            }
+        });
+        mAdapter.setOnItemRetweetClickListener(new RcvAdapter.OnItemRetweetClickListener() {
+            @Override
+            public void onItemRetweetClick(View view, int position) {
+
+            }
+        });
+        if(mWeiboDataProvider!=null){
+            mWeiboDataProvider.updateData(0L,0L,true);
+        }
 
         //处理下拉刷新
         mSwipeRefreshLayout.setColorSchemeColors(Color.BLUE);
@@ -126,6 +156,24 @@ public class MainFragment extends BaseFragment {
 
             }
         });
+        /*new Thread(){
+            @Override
+            public void run() {
+                super.run();
+                while(true){
+                    try {
+                        sleep(1000l);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+
+                    Log.e(""+context,"!!!"+mSwipeRefreshLayout.getHeight()+"  "+mRecyclerView.getHeight());
+
+                    Log.e(""+context,"???"+mSwipeRefreshLayout.getMeasuredHeight()+"  "+mRecyclerView.getMeasuredHeight());
+                }
+            }
+        }.start();*/
+
     }
 
 

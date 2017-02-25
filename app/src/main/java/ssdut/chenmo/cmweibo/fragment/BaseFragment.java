@@ -2,6 +2,7 @@ package ssdut.chenmo.cmweibo.fragment;
 
 
 import android.app.Activity;
+import android.app.Application;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -21,7 +22,6 @@ import ssdut.chenmo.cmweibo.R;
 public abstract class BaseFragment extends Fragment {
     protected Context context;   //依附的Activity
     protected View contentView;  //本布局
-
 
 //    @Override
 //    public void onAttach(Context context) {

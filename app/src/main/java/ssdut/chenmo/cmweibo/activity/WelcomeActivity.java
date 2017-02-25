@@ -1,9 +1,12 @@
 package ssdut.chenmo.cmweibo.activity;
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import android.os.Environment;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 
 import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
@@ -11,11 +14,9 @@ import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.ImageScaleType;
-import com.sina.weibo.sdk.api.share.Base;
 import com.sina.weibo.sdk.auth.Oauth2AccessToken;
 
 import java.io.File;
-import java.text.SimpleDateFormat;
 
 import ssdut.chenmo.cmweibo.R;
 import ssdut.chenmo.cmweibo.config.Paths;
@@ -33,22 +34,36 @@ public class WelcomeActivity extends BaseActivity {
     private Oauth2AccessToken mAccessToken;
     public static DisplayImageOptions mOptions;
 
+    public static final int PERMISSION_REQUEST_CODE_WRITE_EXTERNAL_STORAGE = 0;
+    int isAbleToStartActivity = 0;
+    int ableToStartActivity = 2;
+
     @Override
     protected void initData() {
 
-        //初始化文件夹路径
-        File file=new File(Paths.imagePath);
-        if(!file.exists()){
-            file.mkdirs();
+
+        //判断权限
+        if(ContextCompat.checkSelfPermission(WelcomeActivity.this,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE)!= PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(WelcomeActivity.this,
+                    new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                    PERMISSION_REQUEST_CODE_WRITE_EXTERNAL_STORAGE);
+        } else {
+            isAbleToStartActivity = ableToStartActivity-1;
         }
-        file=new File(Paths.dbPath);
-        if(!file.exists()){
-            file.mkdirs();
+
+
+
+
+        if(Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)){
+            Log.e("AAAAAAAA","可以用");
+        } else {
+            Log.e("BBBBBBBBBBBBBBBB","不能用");
+
         }
-        file=new File(Paths.downloadPath);
-        if(!file.exists()){
-            file.mkdirs();
-        }
+
+
+
         //初始化ImageLoader
         mOptions = new DisplayImageOptions.Builder().showImageOnLoading(0) // 设置图片在下载期间显示的图片
                 .showImageForEmptyUri(R.mipmap.ic_launcher)// 设置图片Uri为空或是错误的时候显示的图片
@@ -81,23 +96,59 @@ public class WelcomeActivity extends BaseActivity {
                 .threadPoolSize(3)
                 .build();
         ImageLoader.getInstance().init(config);
-
-
-        //通过令牌决定下一步操作
-        mAccessToken = AccessTokenKeeper.readAccessToken(this);
-        if (mAccessToken.isSessionValid()) {
-            //上次的登录信息存在且可用  那就直接进入 MainActivity
-            startActivity(new Intent(WelcomeActivity.this,MainActivity.class));
-            playOpenAnimation();
-            finish();
-        } else {
-            //不存在或者不可用 进入 LoginActivity
-            startActivity(new Intent(WelcomeActivity.this,LoginActivity.class));
-            playOpenAnimation();
-            finish();
-        }
+        startNewActivity();
     }
 
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode) {
+            case PERMISSION_REQUEST_CODE_WRITE_EXTERNAL_STORAGE:
+                // If request is cancelled, the result arrays are empty.
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+
+                    //初始化文件夹路径
+                    File file=new File(Paths.imagePath);
+                    if(!file.exists()){
+                        file.mkdirs();
+                    }
+                    file=new File(Paths.dbPath);
+                    if(!file.exists()){
+                        file.mkdirs();
+                    }
+                    file=new File(Paths.downloadPath);
+                    if(!file.exists()){
+                        file.mkdirs();
+                    }
+                } else {
+                    //I should ask my dear users again
+                    showToast("FUCK YOU. APP will die anytime");
+                }
+            break;
+        }
+        startNewActivity();
+    }
+
+
+    private void startNewActivity(){
+        isAbleToStartActivity++;
+        if(isAbleToStartActivity ==2) {
+            //通过令牌决定下一步操作
+            mAccessToken = AccessTokenKeeper.readAccessToken(this);
+            if (mAccessToken.isSessionValid()) {
+                //上次的登录信息存在且可用  那就直接进入 MainActivity
+                startActivity(new Intent(WelcomeActivity.this,MainActivity.class));
+                playOpenAnimation();
+                finish();
+            } else {
+                //不存在或者不可用 进入 LoginActivity
+                startActivity(new Intent(WelcomeActivity.this,LoginActivity.class));
+                playOpenAnimation();
+                finish();
+            }
+        }
+    }
 
     @Override
     protected int initLayoutRes() {

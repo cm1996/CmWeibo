@@ -42,22 +42,5 @@ public class NormalWeiboViewHolder extends RecyclerView.ViewHolder{
     public NormalWeiboViewHolder(View itemView) {
         super(itemView);
         ButterKnife.bind(this,itemView);
-
-        baseCard.setOnTouchListener(new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                int action = event.getActionMasked();
-                switch (action) {
-                    case MotionEvent.ACTION_DOWN:
-                        v.setTranslationZ(0);
-                        break;
-                    case MotionEvent.ACTION_UP:
-                        v.setTranslationZ(2);
-                    default:
-                        return false;
-                }
-                return true;
-            }
-        });
     }
 }

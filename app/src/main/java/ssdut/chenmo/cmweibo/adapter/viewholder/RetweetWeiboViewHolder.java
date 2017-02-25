@@ -36,34 +36,12 @@ public class RetweetWeiboViewHolder extends RecyclerView.ViewHolder{
     @BindView(R.id.weibo_item_comment)
     public TextView comment;
     @BindView(R.id.rl1)
-    RelativeLayout retweetCard;
+    public RelativeLayout retweetCard;
     @BindView(R.id.rl)
-    RelativeLayout baseCard;
+    public RelativeLayout baseCard;
 
     public RetweetWeiboViewHolder(View itemView) {
         super(itemView);
         ButterKnife.bind(this,itemView);
-
-
-
-        View.OnTouchListener onTouchListener = new View.OnTouchListener() {
-            @Override
-            public boolean onTouch(View v, MotionEvent event) {
-                int action = event.getActionMasked();
-                switch (action) {
-                    case MotionEvent.ACTION_DOWN:
-                        v.setTranslationZ(0);
-                        break;
-                    case MotionEvent.ACTION_UP:
-                        v.setTranslationZ(2);
-                        default:
-                            return false;
-                }
-                return true;
-            }
-        };
-        retweetCard.setOnTouchListener(onTouchListener);
-        baseCard.setOnTouchListener(onTouchListener);
-
     }
 }

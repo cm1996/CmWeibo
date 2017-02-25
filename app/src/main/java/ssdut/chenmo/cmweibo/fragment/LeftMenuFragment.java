@@ -39,6 +39,7 @@ import ssdut.chenmo.cmweibo.activity.MainActivity;
 import ssdut.chenmo.cmweibo.activity.SelfActivity;
 import ssdut.chenmo.cmweibo.activity.UserActivity;
 import ssdut.chenmo.cmweibo.activity.WelcomeActivity;
+import ssdut.chenmo.cmweibo.utils.BitmapUtils;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -111,7 +112,7 @@ public class LeftMenuFragment extends BaseFragment {
 
     @OnClick(R.id.head_imageview)
     public void onHeadClick(View v){
-        startActivity(new Intent(context,UserActivity.class));
+        startActivity(new Intent(context,SelfActivity.class));
         playOpenAnimation();
     }
 
@@ -141,8 +142,11 @@ public class LeftMenuFragment extends BaseFragment {
 
             @Override
             public void onLoadingComplete(String imageUri, View view, Bitmap loadedImage) {
-
+                //Bitmap bm = BitmapUtils.blur(loadedImage,mHead,context);
+                //Bitmap bm = BitmapUtils.blurBitmap(loadedImage,20f,context);
                 mHead.setImageBitmap(loadedImage);
+                //将Bitmap存到本地
+                BitmapUtils.saveBitmap(loadedImage);
             }
 
             @Override

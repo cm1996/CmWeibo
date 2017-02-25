@@ -28,11 +28,14 @@ import com.sina.weibo.sdk.openapi.models.StatusList;
 import com.sina.weibo.sdk.openapi.models.User;
 import com.sina.weibo.sdk.utils.LogUtil;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.OnClick;
 import ssdut.chenmo.cmweibo.R;
+import ssdut.chenmo.cmweibo.application.MyApplication;
 import ssdut.chenmo.cmweibo.config.Constants;
 import ssdut.chenmo.cmweibo.cusview.ToolBar;
 import ssdut.chenmo.cmweibo.fragment.FindFragment;
@@ -40,9 +43,13 @@ import ssdut.chenmo.cmweibo.fragment.LeftMenuFragment;
 import ssdut.chenmo.cmweibo.fragment.MainFragment;
 import ssdut.chenmo.cmweibo.fragment.MessageFragment;
 import ssdut.chenmo.cmweibo.fragment.SettingFragment;
+import ssdut.chenmo.cmweibo.models.Emotion;
+import ssdut.chenmo.cmweibo.models.Emotions;
 import ssdut.chenmo.cmweibo.utils.AccessTokenKeeper;
+import ssdut.chenmo.cmweibo.utils.UserUtils;
 
 public class MainActivity extends BaseFragmentActivity implements ToolBar.ToolBarListener{
+
 
     @BindView(R.id.toolbar)
     ToolBar mToolBar;
@@ -54,12 +61,14 @@ public class MainActivity extends BaseFragmentActivity implements ToolBar.ToolBa
     //一些FLAG
     boolean hasGotUserInfo = false;
 
-    //来来来 先把三个fragment实例化
+    //来来来 先把4个fragment实例化
     FindFragment mFindFragment = new FindFragment();
     MessageFragment mMessageFragment = new MessageFragment();
     SettingFragment mSettingFragment = new SettingFragment();
     MainFragment mMainFragment = new MainFragment();
     Fragment currentFragment;
+
+    //ArrayList<Emotion> mEmotions;
 
     @Override
     protected void initData() {
@@ -77,7 +86,21 @@ public class MainActivity extends BaseFragmentActivity implements ToolBar.ToolBa
         getSupportFragmentManager().beginTransaction().add(R.id.id_layout_main,mFindFragment).hide(mFindFragment).commit();
         getSupportFragmentManager().beginTransaction().add(R.id.id_layout_main,mMessageFragment).hide(mMessageFragment).commit();
         getSupportFragmentManager().beginTransaction().add(R.id.id_layout_main,mSettingFragment).hide(mSettingFragment).commit();
+        /*StatusesAPI mStatusesAPI = new StatusesAPI(MainActivity.this,Constants.APP_KEY,mOauth2AccessToken);
+        mStatusesAPI.emotions("face", "cnname", new RequestListener() {
+            @Override
+            public void onComplete(String s) {
+                mEmotions = Emotions.parse(s);
+                for(Emotion e: mEmotions) {
+                    Log.e("test emotions",e.value+" "+e.url);
+                }
+            }
 
+            @Override
+            public void onWeiboException(WeiboException e) {
+                Log.e("fuck","fail to get emotions of Weibo");
+            }
+        });*/
         mMainFragment.setWeiboDataProvider(new MainFragment.WeiboDataProvider() {
 
             @Override
@@ -112,6 +135,7 @@ public class MainActivity extends BaseFragmentActivity implements ToolBar.ToolBa
                 });
             }
         });
+        Log.e("FUCK YOU", Arrays.toString(fileList()));
     }
 
 
@@ -123,6 +147,7 @@ public class MainActivity extends BaseFragmentActivity implements ToolBar.ToolBa
 
                 if(!TextUtils.isEmpty(s)){
                     user = User.parse(s);
+                    UserUtils.setUser(user);
                     //改一下UI
                     changeUi();
                 }
