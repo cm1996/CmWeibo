@@ -69,4 +69,9 @@ public class ViewHolder extends RecyclerView.ViewHolder {
         return this;
     }
 
+    public ViewHolder setOnConvertViewClickListener(View.OnClickListener listener) {
+        mConvertView.setOnClickListener(listener);
+        return this;
+    }
+
 }

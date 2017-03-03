@@ -204,7 +204,7 @@ public class RcvAdapter extends RecyclerView.Adapter {
     public void onBindViewHolder(final RecyclerView.ViewHolder holder, int position) {
 
         if (holder instanceof FooterViewHolder) {
-            ((FooterViewHolder) holder).rcvLoadMore.setVisibility(View.VISIBLE);
+            //((FooterViewHolder) holder).rcvLoadMore.setVisibility(View.VISIBLE);
             return;
         } else if(holder instanceof NormalWeiboViewHolder) {
             /**
@@ -230,7 +230,7 @@ public class RcvAdapter extends RecyclerView.Adapter {
 
 
             ImageLoader.getInstance().loadImage(data.get(position).user.profile_image_url
-                    , WelcomeActivity.mOptions,new ImageLoadingListener() {
+                    , new ImageLoadingListener() {
                 @Override
                 public void onLoadingStarted(String imageUri, View view) {}
                 @Override
@@ -262,8 +262,7 @@ public class RcvAdapter extends RecyclerView.Adapter {
                     iv.setMinimumHeight(l/3);
                     iv.setScaleType(ImageView.ScaleType.FIT_XY);
                     gl.addView(iv);
-                    ImageLoader.getInstance().loadImage(data.get(position).pic_urls.get(i)
-                            , WelcomeActivity.mOptions,
+                    ImageLoader.getInstance().loadImage(data.get(position).pic_urls.get(i),
                             new ImageLoadingListener() {
                                 @Override
                                 public void onLoadingStarted(String imageUri, View view) {}
@@ -321,7 +320,7 @@ public class RcvAdapter extends RecyclerView.Adapter {
                     setText(data.get(position).created_at/*+" "+data.get(position).source*/);
 
             ImageLoader.getInstance().loadImage(data.get(position).user.profile_image_url
-                    , WelcomeActivity.mOptions,new ImageLoadingListener() {
+                    ,new ImageLoadingListener() {
                         @Override
                         public void onLoadingStarted(String imageUri, View view) {}
                         @Override
@@ -354,8 +353,7 @@ public class RcvAdapter extends RecyclerView.Adapter {
                     iv.setMinimumHeight(l/3);
                     iv.setScaleType(ImageView.ScaleType.FIT_XY);
                     gl.addView(iv);
-                    ImageLoader.getInstance().loadImage(data.get(position).retweeted_status.pic_urls.get(i)
-                            , WelcomeActivity.mOptions,
+                    ImageLoader.getInstance().loadImage(data.get(position).retweeted_status.pic_urls.get(i),
                             new ImageLoadingListener() {
                                 @Override
                                 public void onLoadingStarted(String imageUri, View view) {}

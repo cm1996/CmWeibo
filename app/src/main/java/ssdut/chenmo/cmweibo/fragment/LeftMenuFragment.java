@@ -129,7 +129,7 @@ public class LeftMenuFragment extends BaseFragment {
     public void initUi(String screen_name, String description,String avatar){
         mScreenName.setText(screen_name);
         mDescription.setText(description);
-        ImageLoader.getInstance().loadImage(avatar, WelcomeActivity.mOptions,new ImageLoadingListener() {
+        ImageLoader.getInstance().loadImage(avatar,new ImageLoadingListener() {
             @Override
             public void onLoadingStarted(String imageUri, View view) {
 

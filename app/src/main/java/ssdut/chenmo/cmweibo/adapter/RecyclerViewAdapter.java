@@ -1,6 +1,7 @@
 package ssdut.chenmo.cmweibo.adapter;
 
 import android.content.Context;
+import android.support.annotation.Nullable;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
@@ -24,6 +25,7 @@ public abstract class RecyclerViewAdapter<T> extends RecyclerView.Adapter {
         mContext = context;
         mInflater = LayoutInflater.from(context);
         mDatas = datas;
+        mMultiItemTypeSupport = multiItemSupport;
 
     }
 
@@ -54,6 +56,7 @@ public abstract class RecyclerViewAdapter<T> extends RecyclerView.Adapter {
     public interface MultiItemTypeSupport<T> {
 
         int getLayoutId(int itemType);
+
 
         int getItemViewType(int position, T t);
     }

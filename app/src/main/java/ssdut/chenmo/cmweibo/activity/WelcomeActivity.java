@@ -32,7 +32,7 @@ public class WelcomeActivity extends BaseActivity {
 
     /** 封装了 "access_token"，"expires_in"，"refresh_token"，并提供了他们的管理功能  */
     private Oauth2AccessToken mAccessToken;
-    public static DisplayImageOptions mOptions;
+    public DisplayImageOptions mOptions;
 
     public static final int PERMISSION_REQUEST_CODE_WRITE_EXTERNAL_STORAGE = 0;
     int isAbleToStartActivity = 0;

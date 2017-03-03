@@ -34,6 +34,13 @@ public class MyApplication extends Application {
     Oauth2AccessToken mOauth2AccessToken;
     ArrayList<Emotion> mEmotions;
     public Map<String,Bitmap> mBitmapEmotions = new HashMap<>();
+    private static MyApplication instance;
+
+    public static MyApplication getInstance(){
+        return instance;
+    }
+
+
 
     @Override
     public void onCreate() {
@@ -47,8 +54,7 @@ public class MyApplication extends Application {
                     Log.e("test emotions",e.value+" "+e.url);
                 }
                 for(final Emotion e: mEmotions) {
-                    ImageLoader.getInstance().loadImage(e.url, WelcomeActivity.mOptions,
-                            new ImageLoadingListener() {
+                    ImageLoader.getInstance().loadImage(e.url, new ImageLoadingListener() {
                                 @Override
                                 public void onLoadingStarted(String imageUri, View view) {
 
@@ -78,6 +84,7 @@ public class MyApplication extends Application {
                 Log.e("fuck","fail to get emotions of Weibo");
             }
         });
+        instance = this;
     }
 
 }

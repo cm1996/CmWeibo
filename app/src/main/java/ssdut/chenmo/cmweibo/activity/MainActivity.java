@@ -2,6 +2,7 @@ package ssdut.chenmo.cmweibo.activity;
 
 import android.animation.ValueAnimator;
 import android.os.Message;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -105,8 +106,10 @@ public class MainActivity extends BaseFragmentActivity implements ToolBar.ToolBa
 
             @Override
             public void updateData(long since_id, final long max_id , final boolean isNew) {
-                StatusesAPI mStatusesAPI = new StatusesAPI(MainActivity.this,Constants.APP_KEY,mOauth2AccessToken);
-                mStatusesAPI.friendsTimeline(since_id, max_id, 20, 1, false, 0, false, new RequestListener() {
+                StatusesAPI mStatusesAPI = new StatusesAPI(MainActivity.this,
+                        Constants.APP_KEY,mOauth2AccessToken);
+                mStatusesAPI.friendsTimeline(since_id, max_id, 20, 1, false, 0, false,
+                        new RequestListener() {
                     @Override
                     public void onComplete(String response) {
                         if (!TextUtils.isEmpty(response)) {
@@ -133,6 +136,24 @@ public class MainActivity extends BaseFragmentActivity implements ToolBar.ToolBa
                         showToast("出现异常001");
                     }
                 });
+            }
+
+            @Override
+            public void sendNewWeibo(String s) {
+                StatusesAPI mStatusesAPI = new StatusesAPI(MainActivity.this,
+                        Constants.APP_KEY,mOauth2AccessToken);
+                mStatusesAPI.update(s, "0.0", "0.0", new RequestListener() {
+                    @Override
+                    public void onComplete(String s) {
+                        Snackbar.make(mToolBar,"微博已发送",Snackbar.LENGTH_SHORT).show();
+                    }
+
+                    @Override
+                    public void onWeiboException(WeiboException e) {
+                        Snackbar.make(mToolBar,"发送失败",Snackbar.LENGTH_SHORT).show();
+                    }
+                });
+
             }
         });
         Log.e("FUCK YOU", Arrays.toString(fileList()));

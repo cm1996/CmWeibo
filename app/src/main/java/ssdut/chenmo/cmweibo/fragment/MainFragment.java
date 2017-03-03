@@ -13,11 +13,14 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.RecyclerView.ViewHolder;
 
+import android.text.method.LinkMovementMethod;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.getbase.floatingactionbutton.FloatingActionsMenu;
@@ -35,6 +38,11 @@ import ssdut.chenmo.cmweibo.activity.UserActivity;
 import ssdut.chenmo.cmweibo.adapter.DividerItemDecoration;
 import ssdut.chenmo.cmweibo.adapter.RcvAdapter;
 import ssdut.chenmo.cmweibo.adapter.RecyclerViewAdapter;
+import ssdut.chenmo.cmweibo.cusview.NineImageGallery;
+import ssdut.chenmo.cmweibo.dialog.SendWeiboDialog;
+import ssdut.chenmo.cmweibo.utils.BitmapUtils;
+import ssdut.chenmo.cmweibo.utils.ImageLoaderUtils;
+import ssdut.chenmo.cmweibo.utils.TextSpanUtils;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -62,22 +70,45 @@ public class MainFragment extends BaseFragment {
     @BindView(R.id.fab_menu)
     public FloatingActionsMenu mFAM;
 
-    private boolean loading = false; //判断是否正在进行上拉加载
+    //private boolean loading = false; //判断是否正在进行上拉加载
     List<Status> mWeibos = new ArrayList<>();
     RcvAdapter mAdapter;
+    RecyclerViewAdapter mRecyclerViewAdapter;
+
+    protected int recyclerViewScrollState;
+    public static final int recyclerViewIsScroll = 0;
+    public static final int recyclerViewIsNotScroll = 1;
+
+    Status mEmptyStatus = new Status();
+
 
 
     @Override
     protected void initDatas() {
+
+        mEmptyStatus.id = "-1";
 
         //配置RecyclerView
         mRecyclerView.setLayoutManager(new LinearLayoutManager(context));
         //mRecyclerView.setAdapter(mAdapter = new RcvAdapter(context,mWeibos));
         mRecyclerView.addItemDecoration(
                 new DividerItemDecoration(context,DividerItemDecoration.VERTICAL_LIST));
+        mRecyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
+                if(newState != RecyclerView.SCROLL_STATE_SETTLING){
+                    Log.e("scroll state","在飞呀");
+                    recyclerViewScrollState = recyclerViewIsNotScroll;
+                } else {
+                    Log.e("scroll state","在滑动或静止");
+                    recyclerViewScrollState = recyclerViewIsScroll;
+                }
+            }
+        });
 
-        mRecyclerView.setAdapter(new RecyclerViewAdapter(context, mWeibos,
+        mRecyclerView.setAdapter(mRecyclerViewAdapter = new RecyclerViewAdapter(context, mWeibos,
                 new RecyclerViewAdapter.MultiItemTypeSupport() {
+                    //说明:我们将layoutId和Type直接相等
             @Override
             public int getLayoutId(int itemType) {
                 return itemType;
@@ -85,7 +116,7 @@ public class MainFragment extends BaseFragment {
 
             @Override
             public int getItemViewType(int position, Object o) {
-                if(o==null){
+                if(((Status)o).id.equals("-1")){
                     return R.layout.layout_weibo_footer;
                 } else if(((Status)o).retweeted_status==null){ //说明是原创微博
                     return R.layout.layout_weibo_item;
@@ -96,13 +127,93 @@ public class MainFragment extends BaseFragment {
         }) {
             @Override
             public void convert(ssdut.chenmo.cmweibo.adapter.ViewHolder holder, Object o, int position) {
-                switch (getItemViewType(position)){
+                if(getItemViewType(position)==R.layout.layout_weibo_footer){
+                    holder.setOnConvertViewClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            if(mWeiboDataProvider!=null){
+                                if(mWeibos.size()>1){
+                                    mWeiboDataProvider.updateData(0L,Long.parseLong(mWeibos.get(mWeibos.size()-2).id),false);
+                                } else {
+                                    mWeiboDataProvider.updateData(0L,0L,false);
 
+                                }
+                            }
+                        }
+                    });
+                } else if(getItemViewType(position)==R.layout.layout_weibo_item){
+                    TextView text = holder.getView(R.id.weibo_item_text);
+                    text.setMovementMethod(LinkMovementMethod.getInstance());
+                    text.setText(TextSpanUtils.getInstance().highlightClickable(((Status) o).text,
+                                    new TextSpanUtils.OnSpanClickListener() {
+                                @Override
+                                public void OnClick(String s) {
+                                    showToast(s);
+                                }
+                            }));
+                    holder.setText(R.id.weibo_item_name,((Status)o).user.screen_name+" "+position);
+                    holder.setText(R.id.weibo_item_time_sourse,((Status)o).created_at);
+
+                    NineImageGallery nineImageGallery = holder.getView(R.id.weibo_item_pics);
+                    if(((Status)o).pic_urls!=null){
+                        nineImageGallery.addImageByUrl(((Status)o).pic_urls);
+                        Log.e("有 ","位置 "+position+" "+((Status)o).pic_urls.size());
+
+                    } else {
+                        ((NineImageGallery)holder.getView(R.id.weibo_item_pics)).clearAllTag();
+                    }
+                    String tag = "avatar"+position;
+                    ImageView avatar = holder.getView(R.id.weibo_item_avatar);
+                    avatar.setTag(tag);
+
+                    ImageLoaderUtils.bindBitmap(avatar, tag,
+                            ((Status)o).user.profile_image_url);
+                    holder.setText(R.id.weibo_item_comment,"评论 "+((Status)o).comments_count);
+                    holder.setText(R.id.weibo_item_retweet,"转发 "+((Status)o).reposts_count);
+
+
+                } else {
+                    TextView text = holder.getView(R.id.weibo_item_text);
+                    text.setMovementMethod(LinkMovementMethod.getInstance());
+                    text.setText(TextSpanUtils.getInstance().highlightClickable(((Status) o).text,
+                            new TextSpanUtils.OnSpanClickListener() {
+                                @Override
+                                public void OnClick(String s) {
+                                    showToast(s);
+                                }
+                            }));
+                    TextView retweetText = holder.getView(R.id.weibo_retweet_item_text);
+                    retweetText.setMovementMethod(LinkMovementMethod.getInstance());
+                    retweetText.setText(TextSpanUtils.getInstance().highlightClickable(
+                            "@"+ ((Status)o).retweeted_status.user.screen_name+
+                                    ": "+((Status)o).retweeted_status.text,
+                            new TextSpanUtils.OnSpanClickListener() {
+                                @Override
+                                public void OnClick(String s) {
+                                    showToast(s);
+                                }
+                            }));
+                    holder.setText(R.id.weibo_item_name,((Status)o).user.screen_name+" "+position);
+                    holder.setText(R.id.weibo_item_time_sourse,((Status)o).created_at);
+                    NineImageGallery nineImageGallery = holder.getView(R.id.weibo_retweet_item_pics);
+                    if(((Status)o).retweeted_status.pic_urls!=null){
+                        nineImageGallery.addImageByUrl(((Status)o).retweeted_status.pic_urls);
+                        Log.e("有 ","位置 "+position+" "+((Status)o).retweeted_status.pic_urls.size());
+                    } else {
+                        ((NineImageGallery)holder.getView(R.id.weibo_retweet_item_pics)).clearAllTag();
+                    }
+                    String tag = "avatar"+position;
+                    ImageView avatar = (ImageView) holder.getView(R.id.weibo_item_avatar);
+                    avatar.setTag(tag);
+                    ImageLoaderUtils.bindBitmap(avatar, tag,
+                            ((Status)o).user.profile_image_url);
+                    holder.setText(R.id.weibo_item_comment,"评论 "+((Status)o).comments_count);
+                    holder.setText(R.id.weibo_item_retweet,"转发 "+((Status)o).reposts_count);
                 }
             }
         });
 
-        mAdapter.setOnItemClickListener(new RcvAdapter.OnItemClickListener() {
+      /*  mAdapter.setOnItemClickListener(new RcvAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(View view, int position) {
                 showToast("fuckyou");
@@ -128,7 +239,7 @@ public class MainFragment extends BaseFragment {
             public void onItemRetweetClick(View view, int position) {
 
             }
-        });
+        });*/
         if(mWeiboDataProvider!=null){
             mWeiboDataProvider.updateData(0L,0L,true);
         }
@@ -149,85 +260,46 @@ public class MainFragment extends BaseFragment {
             }
         });
 
-        //上拉加载
-        mRecyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
-
-            @Override
-            public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
-                super.onScrolled(recyclerView, dx, dy);
-                LinearLayoutManager layoutManager = (LinearLayoutManager) recyclerView.getLayoutManager();
-
-                int totalItemCount = layoutManager.getItemCount();
-
-                int lastVisibleItem = layoutManager.findLastVisibleItemPosition();
-
-                if (!loading && totalItemCount < (lastVisibleItem + 2)) {
-                    if(mWeibos.get(mWeibos.size()-1)!=null){
-                        mWeibos.add(null);
-                        mAdapter.notifyDataSetChanged();
-                    }
-
-                    showToast("你正在上拉加载");
-                    loading = true;  //表示正在联网加载新数据
-                    // 。。。。。。好了加载完了
-
-                    if(mWeiboDataProvider!=null){
-                        if(mWeibos.size()>1){
-                            mWeiboDataProvider.updateData(0L,Long.parseLong(mWeibos.get(mWeibos.size()-2).id),false);
-                        } else {
-                            mWeiboDataProvider.updateData(0L,0L,false);
-
-                        }
-                    }
-                }
-
-
-            }
-        });
-        /*new Thread(){
-            @Override
-            public void run() {
-                super.run();
-                while(true){
-                    try {
-                        sleep(1000l);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-
-                    Log.e(""+context,"!!!"+mSwipeRefreshLayout.getHeight()+"  "+mRecyclerView.getHeight());
-
-                    Log.e(""+context,"???"+mSwipeRefreshLayout.getMeasuredHeight()+"  "+mRecyclerView.getMeasuredHeight());
-                }
-            }
-        }.start();*/
-
     }
 
 
     @OnClick(R.id.fab_to_top)
     public void toTop(View v){
-        int position = ((LinearLayoutManager)mRecyclerView.getLayoutManager()).
-                findLastVisibleItemPosition();
-        if(position>10)
-            mRecyclerView.scrollToPosition(5);
-        mRecyclerView.smoothScrollToPosition(0);
+        if(mWeibos.size()>1) {
+            int position = ((LinearLayoutManager)mRecyclerView.getLayoutManager()).
+                    findLastVisibleItemPosition();
+            if(position>10)
+                mRecyclerView.scrollToPosition(5);
+            mRecyclerView.smoothScrollToPosition(0);
+        }
         mFAM.toggle();
     }
 
     @OnClick(R.id.fab_to_bottom)
     public void toBottom(View v){
-        int position = ((LinearLayoutManager)mRecyclerView.getLayoutManager()).
-                findLastVisibleItemPosition();
-        if(mAdapter.getItemCount()-position>10)
-            mRecyclerView.scrollToPosition(mAdapter.getItemCount()-5);
-        mRecyclerView.smoothScrollToPosition(mAdapter.getItemCount()-1);
+        if(mWeibos.size()>1) {
+            int position = ((LinearLayoutManager)mRecyclerView.getLayoutManager()).
+                    findLastVisibleItemPosition();
+            if(mRecyclerViewAdapter.getItemCount()-position>10)
+                mRecyclerView.scrollToPosition(mRecyclerViewAdapter.getItemCount()-5);
+            mRecyclerView.smoothScrollToPosition(mRecyclerViewAdapter.getItemCount()-1);
+        }
         mFAM.toggle();
     }
 
     @OnClick(R.id.fab_send_weibo)
     public void sendWeibo(View v){
         mFAM.toggle();
+        SendWeiboDialog sendWeiboDialog = new SendWeiboDialog(context);
+        sendWeiboDialog.setOnPoClickListener(new SendWeiboDialog.OnPoClickListener() {
+            @Override
+            public void onPoClick(View v, String s) {
+                if(mWeiboDataProvider!=null) {
+                    mWeiboDataProvider.sendNewWeibo(s);
+                }
+            }
+        });
+        sendWeiboDialog.show();
     }
 
     @Override
@@ -240,6 +312,7 @@ public class MainFragment extends BaseFragment {
      *  */
     public interface WeiboDataProvider{
         void updateData(long since_id, long max_id , boolean isNew);
+        void sendNewWeibo(String s);
     }
 
     private WeiboDataProvider mWeiboDataProvider;
@@ -259,15 +332,23 @@ public class MainFragment extends BaseFragment {
                     Toast.makeText(MainFragment.this.context,
                             "获取微博信息流成功, 条数: " + statuses.statusList.size(),
                             Toast.LENGTH_LONG).show();
-                    if(msg.what==MSG1){
+                    if(msg.what==MSG1){                     //上拉加载
+                        boolean isFirstTime = false;
+                        if(mWeibos.size()==0){
+                            isFirstTime = true;
+                        }
                         mWeibos.addAll(0,statuses.statusList);
-                    } else if(msg.what==MSG2) {
-                        loading = false;
+                        if(isFirstTime){
+                            mWeibos.add(mEmptyStatus);
+                        }
+
+                    } else if(msg.what==MSG2) {            //下拉刷新
+                        //loading = false;
                         mWeibos.remove(mWeibos.size()-1);
                         mWeibos.addAll(statuses.statusList);
-                        mAdapter.notifyDataSetChanged();
+                        mWeibos.add(mEmptyStatus);
                     }
-                    mAdapter.notifyDataSetChanged();
+                    mRecyclerViewAdapter.notifyDataSetChanged();
 
                 }
                 mSwipeRefreshLayout.setRefreshing(false);

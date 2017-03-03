@@ -96,12 +96,12 @@
         "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
         "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
         "merged": "D:\\android++\\myproject\\CmWeibo\\weiboSDK\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_icon.xml",

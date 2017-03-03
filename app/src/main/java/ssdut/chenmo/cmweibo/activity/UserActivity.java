@@ -149,6 +149,11 @@ public class UserActivity extends AppCompatActivity {
                     }
                 });*/
             }
+
+            @Override
+            public void sendNewWeibo(String s) {
+
+            }
         });
 
 
@@ -185,7 +190,7 @@ public class UserActivity extends AppCompatActivity {
         mFensi.setText(mFensi.getText() + " " + user_fensi);
         mGuanzhu.setText(mGuanzhu.getText() + " " + user_guanzhu);
         mDescription.setText(user_description);
-        ImageLoader.getInstance().loadImage(user_avatar, WelcomeActivity.mOptions,new ImageLoadingListener() {
+        ImageLoader.getInstance().loadImage(user_avatar,new ImageLoadingListener() {
             @Override
             public void onLoadingStarted(String imageUri, View view) {
 

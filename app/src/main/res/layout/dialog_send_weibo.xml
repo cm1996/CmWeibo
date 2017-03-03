@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginTop="100dp"
+              android:layout_marginBottom="100dp"
+              android:layout_marginRight="50dp"
+              android:layout_marginLeft="50dp"
+              android:background="@drawable/bg_send_weibo_dialog"
+              android:gravity="center_horizontal"
+                android:elevation="@dimen/elevation_2"
+    >
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发微博"
+        android:gravity="center"
+        android:textSize="@dimen/text_size_medium"/>
+    <EditText
+        android:layout_below="@+id/title"
+        android:layout_above="@+id/btn_send_weibo"
+        android:id="@+id/edit_text_send_weibo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="start"
+        />
+    <Button
+        android:id="@+id/btn_send_weibo"
+        android:text="PO"
+        android:textColor="@color/white"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_send_weibo_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:elevation="@dimen/elevation_2"/>
+
+</RelativeLayout>

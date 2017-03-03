@@ -53,14 +53,14 @@
             android:id="@+id/weibo_retweet_item_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-        <GridLayout
+        <ssdut.chenmo.cmweibo.cusview.NineImageGallery
             android:layout_below="@id/weibo_retweet_item_text"
             android:id="@+id/weibo_retweet_item_pics"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:columnCount="3"
             android:orientation="horizontal">
-        </GridLayout>
+        </ssdut.chenmo.cmweibo.cusview.NineImageGallery>
     </RelativeLayout>
     <LinearLayout
         android:layout_width="match_parent"

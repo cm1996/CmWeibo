@@ -40,14 +40,14 @@
         android:layout_below="@+id/ll1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-    <GridLayout
+    <ssdut.chenmo.cmweibo.cusview.NineImageGallery
         android:layout_below="@id/weibo_item_text"
         android:id="@+id/weibo_item_pics"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:columnCount="3"
         android:orientation="horizontal">
-    </GridLayout>
+    </ssdut.chenmo.cmweibo.cusview.NineImageGallery>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
