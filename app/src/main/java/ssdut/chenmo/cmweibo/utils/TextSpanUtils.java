@@ -35,6 +35,7 @@ public class TextSpanUtils {
                                                      OnSpanClickListener onSpanClickListener) {
         mOnSpanClickListener = onSpanClickListener;
         SpannableStringBuilder builder = new SpannableStringBuilder(text);
+
         //所有 @ 都高亮可点击
         boolean isFindAt = false;
         int startIndex = 0;
@@ -132,7 +133,6 @@ public class TextSpanUtils {
 
         @Override
         public void onClick(View widget) {
-            Toast.makeText(mContext,"点击了 "+highlightText,Toast.LENGTH_SHORT).show();
             if(mOnSpanClickListener!=null){
                 mOnSpanClickListener.OnClick(highlightText);
             }

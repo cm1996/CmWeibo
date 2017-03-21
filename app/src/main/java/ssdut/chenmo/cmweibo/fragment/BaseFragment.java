@@ -23,17 +23,17 @@ public abstract class BaseFragment extends Fragment {
     protected Context context;   //依附的Activity
     protected View contentView;  //本布局
 
-//    @Override
-//    public void onAttach(Context context) {
-//        super.onAttach(context);
-//        this.context=context;
-//    }
-
     @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        this.context=context;
+    }
+
+/*    @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
         this.context=activity;
-    }
+    }*/
 
     public void showToast(String msg){
         Toast.makeText(context, msg, Toast.LENGTH_SHORT).show();

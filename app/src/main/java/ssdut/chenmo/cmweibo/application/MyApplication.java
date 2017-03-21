@@ -1,7 +1,9 @@
 package ssdut.chenmo.cmweibo.application;
 
 import android.app.Application;
+import android.content.Context;
 import android.graphics.Bitmap;
+import android.support.multidex.MultiDex;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
@@ -21,9 +23,11 @@ import java.util.Map;
 import ssdut.chenmo.cmweibo.activity.MainActivity;
 import ssdut.chenmo.cmweibo.activity.WelcomeActivity;
 import ssdut.chenmo.cmweibo.config.Constants;
+import ssdut.chenmo.cmweibo.handler.CrashHandler;
 import ssdut.chenmo.cmweibo.models.Emotion;
 import ssdut.chenmo.cmweibo.models.Emotions;
 import ssdut.chenmo.cmweibo.utils.AccessTokenKeeper;
+import ssdut.chenmo.cmweibo.utils.Imaget;
 
 /**
  * Created by chenmo on 2016/10/20.
@@ -44,6 +48,8 @@ public class MyApplication extends Application {
 
     @Override
     public void onCreate() {
+        super.onCreate();
+       // Imaget.on(this);
         mOauth2AccessToken = AccessTokenKeeper.readAccessToken(this);
         StatusesAPI mStatusesAPI = new StatusesAPI(MyApplication.this, Constants.APP_KEY,mOauth2AccessToken);
         mStatusesAPI.emotions("face", "cnname", new RequestListener() {
@@ -84,7 +90,14 @@ public class MyApplication extends Application {
                 Log.e("fuck","fail to get emotions of Weibo");
             }
         });
+        CrashHandler crashHandler = CrashHandler.getInstance();
+        crashHandler.init(this);
         instance = this;
     }
 
+    @Override
+    protected void attachBaseContext(Context base) {
+        super.attachBaseContext(base);
+        MultiDex.install(this);
+    }
 }

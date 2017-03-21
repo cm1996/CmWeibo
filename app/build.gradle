@@ -1,10 +1,11 @@
 apply plugin: 'com.android.application'
 /*以下是butter knife直接添加不可用，而需要增加的内容*/
 apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'AndResGuard'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.3"
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "ssdut.chenmo.cmweibo"
@@ -13,20 +14,49 @@ android {
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
+
+        multiDexEnabled true;
     }
     buildTypes {
-        release {
-            minifyEnabled false
+
+        debug {
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    andResGuard {
+        // mappingFile = file("./resource_mapping.txt")
+        mappingFile = null
+        // 当你使用v2签名的时候，7zip压缩是无法生效的。
+        use7zip = true
+        useSign = true
+        // 打开这个开关，会keep住所有资源的原始路径，只混淆资源的名字
+        keepRoot = false
+        whiteList = [
+                "R.mipmap.ic_launcher",
+        ]
+        compressFilePattern = [
+                "*.png",
+                "*.jpg",
+                "*.jpeg",
+                "*.gif",
+                "resources.arsc"
+        ]
+        sevenzip {
+            artifact = 'com.tencent.mm:SevenZip:1.2.0'
+            //path = "/usr/local/bin/7za"
         }
     }
 }
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
     compile project(':weiboSDK')
-    apt 'com.jakewharton:butterknife-compiler:8.2.1'
     compile project(':slidelibrary')
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.jakewharton:butterknife:8.2.1'
@@ -37,4 +67,8 @@ dependencies {
     compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
     compile 'com.android.support:design:23.4.0'
     compile 'com.getbase:floatingactionbutton:1.10.1'
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-beta4'
+    testCompile 'junit:junit:4.12'
+    apt 'com.jakewharton:butterknife-compiler:8.2.1'
 }

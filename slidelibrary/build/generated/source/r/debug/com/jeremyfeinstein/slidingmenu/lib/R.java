@@ -123,10 +123,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     }
     public static final class id {
         public static int fullscreen=0x7f030003;
-        public static int left=0x7f030000;
-        public static int margin=0x7f030002;
-        public static int right=0x7f030001;
-        public static int selected_view=0x7f030004;
+        public static int left=0x7f030001;
+        public static int margin=0x7f030004;
+        public static int right=0x7f030002;
+        public static int selected_view=0x7f030000;
         public static int slidingmenumain=0x7f030005;
     }
     public static final class layout {
@@ -190,7 +190,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.jeremyfeinstein.slidingmenu.lib:behindOffset
         */
-        public static final int SlidingMenu_behindOffset = 3;
+        public static int SlidingMenu_behindOffset = 3;
         /**
           <p>This symbol is the offset where the {@link com.jeremyfeinstein.slidingmenu.lib.R.attr#behindScrollScale}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -204,7 +204,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.jeremyfeinstein.slidingmenu.lib:behindScrollScale
         */
-        public static final int SlidingMenu_behindScrollScale = 5;
+        public static int SlidingMenu_behindScrollScale = 5;
         /**
           <p>This symbol is the offset where the {@link com.jeremyfeinstein.slidingmenu.lib.R.attr#behindWidth}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -220,7 +220,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.jeremyfeinstein.slidingmenu.lib:behindWidth
         */
-        public static final int SlidingMenu_behindWidth = 4;
+        public static int SlidingMenu_behindWidth = 4;
         /**
           <p>This symbol is the offset where the {@link com.jeremyfeinstein.slidingmenu.lib.R.attr#fadeDegree}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -234,7 +234,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.jeremyfeinstein.slidingmenu.lib:fadeDegree
         */
-        public static final int SlidingMenu_fadeDegree = 11;
+        public static int SlidingMenu_fadeDegree = 11;
         /**
           <p>This symbol is the offset where the {@link com.jeremyfeinstein.slidingmenu.lib.R.attr#fadeEnabled}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -248,7 +248,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.jeremyfeinstein.slidingmenu.lib:fadeEnabled
         */
-        public static final int SlidingMenu_fadeEnabled = 10;
+        public static int SlidingMenu_fadeEnabled = 10;
         /**
           <p>This symbol is the offset where the {@link com.jeremyfeinstein.slidingmenu.lib.R.attr#mode}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -265,7 +265,7 @@ containing a value of this type.
 </table>
           @attr name com.jeremyfeinstein.slidingmenu.lib:mode
         */
-        public static final int SlidingMenu_mode = 0;
+        public static int SlidingMenu_mode = 0;
         /**
           <p>This symbol is the offset where the {@link com.jeremyfeinstein.slidingmenu.lib.R.attr#selectorDrawable}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -275,7 +275,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name com.jeremyfeinstein.slidingmenu.lib:selectorDrawable
         */
-        public static final int SlidingMenu_selectorDrawable = 13;
+        public static int SlidingMenu_selectorDrawable = 13;
         /**
           <p>This symbol is the offset where the {@link com.jeremyfeinstein.slidingmenu.lib.R.attr#selectorEnabled}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -289,7 +289,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.jeremyfeinstein.slidingmenu.lib:selectorEnabled
         */
-        public static final int SlidingMenu_selectorEnabled = 12;
+        public static int SlidingMenu_selectorEnabled = 12;
         /**
           <p>This symbol is the offset where the {@link com.jeremyfeinstein.slidingmenu.lib.R.attr#shadowDrawable}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -299,7 +299,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name com.jeremyfeinstein.slidingmenu.lib:shadowDrawable
         */
-        public static final int SlidingMenu_shadowDrawable = 8;
+        public static int SlidingMenu_shadowDrawable = 8;
         /**
           <p>This symbol is the offset where the {@link com.jeremyfeinstein.slidingmenu.lib.R.attr#shadowWidth}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -315,7 +315,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.jeremyfeinstein.slidingmenu.lib:shadowWidth
         */
-        public static final int SlidingMenu_shadowWidth = 9;
+        public static int SlidingMenu_shadowWidth = 9;
         /**
           <p>This symbol is the offset where the {@link com.jeremyfeinstein.slidingmenu.lib.R.attr#touchModeAbove}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -332,7 +332,7 @@ containing a value of this type.
 </table>
           @attr name com.jeremyfeinstein.slidingmenu.lib:touchModeAbove
         */
-        public static final int SlidingMenu_touchModeAbove = 6;
+        public static int SlidingMenu_touchModeAbove = 6;
         /**
           <p>This symbol is the offset where the {@link com.jeremyfeinstein.slidingmenu.lib.R.attr#touchModeBehind}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -349,7 +349,7 @@ containing a value of this type.
 </table>
           @attr name com.jeremyfeinstein.slidingmenu.lib:touchModeBehind
         */
-        public static final int SlidingMenu_touchModeBehind = 7;
+        public static int SlidingMenu_touchModeBehind = 7;
         /**
           <p>This symbol is the offset where the {@link com.jeremyfeinstein.slidingmenu.lib.R.attr#viewAbove}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -359,7 +359,7 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name com.jeremyfeinstein.slidingmenu.lib:viewAbove
         */
-        public static final int SlidingMenu_viewAbove = 1;
+        public static int SlidingMenu_viewAbove = 1;
         /**
           <p>This symbol is the offset where the {@link com.jeremyfeinstein.slidingmenu.lib.R.attr#viewBehind}
           attribute's value can be found in the {@link #SlidingMenu} array.
@@ -369,6 +369,6 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name com.jeremyfeinstein.slidingmenu.lib:viewBehind
         */
-        public static final int SlidingMenu_viewBehind = 2;
+        public static int SlidingMenu_viewBehind = 2;
     };
 }

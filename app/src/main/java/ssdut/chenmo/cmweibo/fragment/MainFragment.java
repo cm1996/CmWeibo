@@ -35,6 +35,7 @@ import butterknife.BindView;
 import butterknife.OnClick;
 import ssdut.chenmo.cmweibo.R;
 import ssdut.chenmo.cmweibo.activity.UserActivity;
+import ssdut.chenmo.cmweibo.activity.WeiboActivity;
 import ssdut.chenmo.cmweibo.adapter.DividerItemDecoration;
 import ssdut.chenmo.cmweibo.adapter.RcvAdapter;
 import ssdut.chenmo.cmweibo.adapter.RecyclerViewAdapter;
@@ -93,18 +94,8 @@ public class MainFragment extends BaseFragment {
         //mRecyclerView.setAdapter(mAdapter = new RcvAdapter(context,mWeibos));
         mRecyclerView.addItemDecoration(
                 new DividerItemDecoration(context,DividerItemDecoration.VERTICAL_LIST));
-        mRecyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
-            @Override
-            public void onScrollStateChanged(RecyclerView recyclerView, int newState) {
-                if(newState != RecyclerView.SCROLL_STATE_SETTLING){
-                    Log.e("scroll state","在飞呀");
-                    recyclerViewScrollState = recyclerViewIsNotScroll;
-                } else {
-                    Log.e("scroll state","在滑动或静止");
-                    recyclerViewScrollState = recyclerViewIsScroll;
-                }
-            }
-        });
+
+
 
         mRecyclerView.setAdapter(mRecyclerViewAdapter = new RecyclerViewAdapter(context, mWeibos,
                 new RecyclerViewAdapter.MultiItemTypeSupport() {
@@ -170,7 +161,12 @@ public class MainFragment extends BaseFragment {
                             ((Status)o).user.profile_image_url);
                     holder.setText(R.id.weibo_item_comment,"评论 "+((Status)o).comments_count);
                     holder.setText(R.id.weibo_item_retweet,"转发 "+((Status)o).reposts_count);
-
+                    holder.setOnConvertViewClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            startActivity(new Intent(context, WeiboActivity.class));
+                        }
+                    });
 
                 } else {
                     TextView text = holder.getView(R.id.weibo_item_text);
@@ -209,6 +205,18 @@ public class MainFragment extends BaseFragment {
                             ((Status)o).user.profile_image_url);
                     holder.setText(R.id.weibo_item_comment,"评论 "+((Status)o).comments_count);
                     holder.setText(R.id.weibo_item_retweet,"转发 "+((Status)o).reposts_count);
+                    holder.setOnConvertViewClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            startActivity(new Intent(context, WeiboActivity.class));
+                        }
+                    });
+                    holder.setOnClickListener(R.id.rl1, new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            startActivity(new Intent(context, WeiboActivity.class));
+                        }
+                    });
                 }
             }
         });

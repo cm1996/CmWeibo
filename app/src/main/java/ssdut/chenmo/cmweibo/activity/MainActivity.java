@@ -56,7 +56,7 @@ public class MainActivity extends BaseFragmentActivity implements ToolBar.ToolBa
     ToolBar mToolBar;
     public SlidingMenu menu;
     LeftMenuFragment mLeftMenuFragment;
-    Oauth2AccessToken mOauth2AccessToken;
+    public Oauth2AccessToken mOauth2AccessToken;
     User user;
 
     //一些FLAG
